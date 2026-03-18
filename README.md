@@ -37,6 +37,9 @@ Then install an extension with the Spec Kit CLI:
 speckit extension install <extension-id>
 ```
 
+You can also browse individual extensions by navigating to their directory
+(e.g., [aide/](aide/)) and reading the README for more details.
+
 ## More Information
 
 See the [Spec Kit README](https://github.com/github/spec-kit/blob/main/README.md)
