@@ -1,0 +1,37 @@
+schema_version: "1.0"
+
+extension:
+  id: extensify
+  name: "Extensify"
+  version: "1.0.0"
+  description: "Create and validate extensions and extension catalogs."
+  author: spec-kit-community
+  repository: "https://github.com/mnriem/spec-kit-extensions"
+  license: MIT
+  homepage: "https://github.com/mnriem/spec-kit-extensions"
+
+requires:
+  speckit_version: ">=0.2.0"
+
+provides:
+  commands:
+    - name: speckit.extensify.create-extension
+      file: commands/create-extension.md
+      description: "Scaffold a new extension from scratch."
+
+    - name: speckit.extensify.validate-extension
+      file: commands/validate-extension.md
+      description: "Validate an extension directory for correctness."
+
+    - name: speckit.extensify.create-catalog
+      file: commands/create-catalog.md
+      description: "Create a catalog.json for a self-hosted extension catalog."
+
+    - name: speckit.extensify.validate-catalog
+      file: commands/validate-catalog.md
+      description: "Validate an extension catalog.json file for correctness."
+
+tags:
+  - extensions
+  - workflow
+  - validation

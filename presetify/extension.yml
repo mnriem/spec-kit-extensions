@@ -1,0 +1,37 @@
+schema_version: "1.0"
+
+extension:
+  id: presetify
+  name: "Presetify"
+  version: "1.0.0"
+  description: "Create and validate presets and preset catalogs."
+  author: spec-kit-community
+  repository: "https://github.com/mnriem/spec-kit-extensions"
+  license: MIT
+  homepage: "https://github.com/mnriem/spec-kit-extensions"
+
+requires:
+  speckit_version: ">=0.2.0"
+
+provides:
+  commands:
+    - name: speckit.presetify.create-preset
+      file: commands/create-preset.md
+      description: "Package project-local template and command overrides into a preset."
+
+    - name: speckit.presetify.create-catalog
+      file: commands/create-catalog.md
+      description: "Create a catalog.json for a self-hosted preset catalog."
+
+    - name: speckit.presetify.validate-catalog
+      file: commands/validate-catalog.md
+      description: "Validate a catalog.json file for correctness."
+
+    - name: speckit.presetify.validate-preset
+      file: commands/validate-preset.md
+      description: "Validate a preset directory for correctness before publishing."
+
+tags:
+  - presets
+  - workflow
+  - templates

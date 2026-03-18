@@ -1,0 +1,51 @@
+schema_version: "1.0"
+
+extension:
+  id: aide
+  name: "AI-Driven Engineering (AIDE)"
+  version: "1.0.0"
+  description: "A structured 7-step workflow for building new projects from scratch with AI assistants — from vision through implementation."
+  author: spec-kit-community
+  repository: "https://github.com/mnriem/spec-kit-extensions"
+  license: MIT
+  homepage: "https://github.com/mnriem/spec-kit-extensions"
+
+requires:
+  speckit_version: ">=0.2.0"
+
+provides:
+  commands:
+    - name: speckit.aide.create-vision
+      file: commands/create-vision.md
+      description: "Create a comprehensive vision document for a new project."
+
+    - name: speckit.aide.create-roadmap
+      file: commands/create-roadmap.md
+      description: "Generate a staged development roadmap from the vision document."
+
+    - name: speckit.aide.create-progress
+      file: commands/create-progress.md
+      description: "Create a progress tracking file from the vision and roadmap."
+
+    - name: speckit.aide.create-queue
+      file: commands/create-queue.md
+      description: "Generate a prioritized queue of the next batch of work items."
+
+    - name: speckit.aide.create-item
+      file: commands/create-item.md
+      description: "Create a detailed work item specification from a queue item."
+
+    - name: speckit.aide.execute-item
+      file: commands/execute-item.md
+      description: "Implement a work item and update progress tracking."
+
+    - name: speckit.aide.feedback-loop
+      file: commands/feedback-loop.md
+      description: "Analyze issues and suggest improvements to the process and documents."
+
+tags:
+  - workflow
+  - project-management
+  - ai-driven
+  - new-project
+  - planning
