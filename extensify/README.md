@@ -69,6 +69,14 @@ Checks JSON syntax, schema conformance, semver format, alphabetical ordering, ID
 
 ### Creating an Extension from a Skill
 
+Skills (`SKILL.md`) are great for packaging procedural knowledge, but they live inside a single project or user profile. Converting a skill into a Spec Kit extension makes it:
+
+- **Shareable** — publish to a catalog so others can install it with `specify extension add`
+- **Versioned** — track changes with semver and a changelog
+- **Discoverable** — listed in `specify extension search` across teams and organizations
+- **Portable** — works in any project without copying files manually
+- **Composable** — presets can customize the extension's templates and commands using composition strategies (replace, prepend, append, wrap)
+
 If you have an existing agent skill (a directory with a `SKILL.md`), convert it into a Spec Kit extension:
 
 ```
