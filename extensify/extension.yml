@@ -3,7 +3,7 @@ schema_version: "1.0"
 extension:
   id: extensify
   name: "Extensify"
-  version: "1.0.0"
+  version: "1.1.0"
   description: "Create and validate extensions and extension catalogs."
   author: spec-kit-community
   repository: "https://github.com/mnriem/spec-kit-extensions"
@@ -11,7 +11,7 @@ extension:
   homepage: "https://github.com/mnriem/spec-kit-extensions"
 
 requires:
-  speckit_version: ">=0.2.0"
+  speckit_version: ">=0.8.0"
 
 provides:
   commands:
@@ -30,6 +30,10 @@ provides:
     - name: speckit.extensify.validate-catalog
       file: commands/validate-catalog.md
       description: "Validate an extension catalog.json file for correctness."
+
+    - name: speckit.extensify.create-extension-from-skill
+      file: commands/create-extension-from-skill.md
+      description: "Create a Spec Kit extension from a skill (SKILL.md and its enclosing directory)."
 
 tags:
   - extensions

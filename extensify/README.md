@@ -20,6 +20,7 @@ specify extension add extensify
 | `/speckit.extensify.validate-extension` | Validate an extension directory for correctness |
 | `/speckit.extensify.create-catalog` | Create a `catalog.json` for a self-hosted extension catalog |
 | `/speckit.extensify.validate-catalog` | Validate an extension `catalog.json` for schema correctness |
+| `/speckit.extensify.create-extension-from-skill` | Create a Spec Kit extension from a skill (`SKILL.md`) |
 
 ## Usage
 
@@ -65,3 +66,17 @@ The command will:
 ```
 
 Checks JSON syntax, schema conformance, semver format, alphabetical ordering, ID consistency, and required fields.
+
+### Creating an Extension from a Skill
+
+If you have an existing agent skill (a directory with a `SKILL.md`), convert it into a Spec Kit extension:
+
+```
+/speckit.extensify.create-extension-from-skill ./path/to/skill-dir
+```
+
+The command will:
+1. Read the `SKILL.md` frontmatter and body
+2. Ask for additional metadata (author, repository, etc.)
+3. Generate a full extension scaffold with the skill's procedure as the main command
+4. Copy any bundled resources (scripts, references, assets) into a `resources/` directory
