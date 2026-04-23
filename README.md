@@ -34,7 +34,7 @@ https://raw.githubusercontent.com/mnriem/spec-kit-extensions/main/catalog.json
 Then install an extension with the Spec Kit CLI:
 
 ```
-speckit extension install <extension-id>
+specify extension install <extension-id>
 ```
 
 You can also browse individual extensions by navigating to their directory
