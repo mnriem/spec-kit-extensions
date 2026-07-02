@@ -1,0 +1,200 @@
+schema_version: "1.0"
+
+extension:
+  id: gstack
+  name: "gstack"
+  version: "1.58.5.0"
+  description: "The gstack skill suite as Spec Kit commands — install once, then use every gstack skill via /speckit.gstack.*."
+  author: spec-kit-community
+  repository: "https://github.com/mnriem/spec-kit-extensions"
+  license: MIT
+  homepage: "https://github.com/garrytan/gstack"
+
+requires:
+  speckit_version: ">=0.2.0"
+
+provides:
+  commands:
+    - name: speckit.gstack.setup
+      file: commands/setup.md
+      description: "One-time setup: install the pinned gstack runtime so /speckit.gstack.* commands work."
+    - name: speckit.gstack.autoplan
+      file: commands/autoplan.md
+      description: "Auto-review pipeline \u2014 reads the full CEO, design, eng, and DX review skills from disk and runs them sequentially with auto-decisions using 6 decision principles."
+    - name: speckit.gstack.benchmark
+      file: commands/benchmark.md
+      description: "Performance regression detection using the browse daemon."
+    - name: speckit.gstack.benchmark-models
+      file: commands/benchmark-models.md
+      description: "Cross-model benchmark for gstack skills."
+    - name: speckit.gstack.browse
+      file: commands/browse.md
+      description: "Fast headless browser for QA testing and site dogfooding."
+    - name: speckit.gstack.hackernews-frontpage
+      file: commands/hackernews-frontpage.md
+      description: "Scrape the Hacker News front page (titles, points, comment counts)."
+    - name: speckit.gstack.canary
+      file: commands/canary.md
+      description: "Post-deploy canary monitoring."
+    - name: speckit.gstack.careful
+      file: commands/careful.md
+      description: "Safety guardrails for destructive commands."
+    - name: speckit.gstack.codex
+      file: commands/codex.md
+      description: "OpenAI Codex CLI wrapper \u2014 three modes."
+    - name: speckit.gstack.context-restore
+      file: commands/context-restore.md
+      description: "Restore working context saved earlier by /context-save."
+    - name: speckit.gstack.context-save
+      file: commands/context-save.md
+      description: "Save working context."
+    - name: speckit.gstack.cso
+      file: commands/cso.md
+      description: "Chief Security Officer mode."
+    - name: speckit.gstack.design-consultation
+      file: commands/design-consultation.md
+      description: "Design consultation: understands your product, researches the landscape, proposes a complete design system (aesthetic, typography, color, layout, spacing, motion), and generates font+color preview..."
+    - name: speckit.gstack.design-html
+      file: commands/design-html.md
+      description: "Design finalization: generates production-quality Pretext-native HTML/CSS."
+    - name: speckit.gstack.design-review
+      file: commands/design-review.md
+      description: "Designer's eye QA: finds visual inconsistency, spacing issues, hierarchy problems, AI slop patterns, and slow interactions \u2014 then fixes them."
+    - name: speckit.gstack.design-shotgun
+      file: commands/design-shotgun.md
+      description: "Design shotgun: generate multiple AI design variants, open a comparison board, collect structured feedback, and iterate."
+    - name: speckit.gstack.devex-review
+      file: commands/devex-review.md
+      description: "Live developer experience audit."
+    - name: speckit.gstack.diagram
+      file: commands/diagram.md
+      description: "Turn an English description (or mermaid source) into a diagram triplet: the source, an editable .excalidraw file you can open"
+    - name: speckit.gstack.document-generate
+      file: commands/document-generate.md
+      description: "Generate missing documentation from scratch for a feature, module, or entire project."
+    - name: speckit.gstack.document-release
+      file: commands/document-release.md
+      description: "Post-ship documentation update."
+    - name: speckit.gstack.freeze
+      file: commands/freeze.md
+      description: "Restrict file edits to a specific directory for the session."
+    - name: speckit.gstack.upgrade
+      file: commands/upgrade.md
+      description: "Upgrade gstack to the latest version."
+    - name: speckit.gstack.guard
+      file: commands/guard.md
+      description: "Full safety mode: destructive command warnings + directory-scoped edits."
+    - name: speckit.gstack.health
+      file: commands/health.md
+      description: "Code quality dashboard."
+    - name: speckit.gstack.investigate
+      file: commands/investigate.md
+      description: "Systematic debugging with root cause investigation."
+    - name: speckit.gstack.ios-clean
+      file: commands/ios-clean.md
+      description: "Remove the DebugBridge SPM package and all #if DEBUG wiring from an iOS app."
+    - name: speckit.gstack.ios-design-review
+      file: commands/ios-design-review.md
+      description: "Visual design audit for iOS apps on real hardware."
+    - name: speckit.gstack.ios-fix
+      file: commands/ios-fix.md
+      description: "Autonomous iOS bug fixer."
+    - name: speckit.gstack.ios-qa
+      file: commands/ios-qa.md
+      description: "Live-device iOS QA for SwiftUI apps."
+    - name: speckit.gstack.ios-sync
+      file: commands/ios-sync.md
+      description: "Regenerate the iOS debug bridge against the latest upstream gstack templates."
+    - name: speckit.gstack.land-and-deploy
+      file: commands/land-and-deploy.md
+      description: "Land and deploy workflow."
+    - name: speckit.gstack.landing-report
+      file: commands/landing-report.md
+      description: "Read-only queue dashboard for workspace-aware ship."
+    - name: speckit.gstack.learn
+      file: commands/learn.md
+      description: "Manage project learnings."
+    - name: speckit.gstack.make-pdf
+      file: commands/make-pdf.md
+      description: "Turn any markdown file into a publication-quality PDF."
+    - name: speckit.gstack.office-hours
+      file: commands/office-hours.md
+      description: "YC Office Hours \u2014 two modes."
+    - name: speckit.gstack.open-gstack-browser
+      file: commands/open-gstack-browser.md
+      description: "Launch GStack Browser \u2014 AI-controlled Chromium with the sidebar extension baked in."
+    - name: speckit.gstack.openclaw-ceo-review
+      file: commands/openclaw-ceo-review.md
+      description: "Use when asked to review a plan, challenge a proposal, run a CEO review, poke holes in an approach, think bigger about scope, or decide whether to expand or reduce the plan."
+    - name: speckit.gstack.openclaw-investigate
+      file: commands/openclaw-investigate.md
+      description: "Use when asked to debug, fix a bug, investigate an error, or do root cause analysis, and when users report errors, stack traces, unexpected behavior, or say something stopped working."
+    - name: speckit.gstack.openclaw-office-hours
+      file: commands/openclaw-office-hours.md
+      description: "Use when asked to brainstorm, evaluate whether an idea is worth building, run office hours, or think through a new product idea or design direction before any code is written."
+    - name: speckit.gstack.openclaw-retro
+      file: commands/openclaw-retro.md
+      description: "Weekly engineering retrospective. Analyzes commit history, work patterns, and code quality metrics with persistent history and trend tracking. Team-aware with per-person contributions, praise, and growth areas. Use when asked for weekly retro, what shipped this week, or engineering retrospective."
+    - name: speckit.gstack.pair-agent
+      file: commands/pair-agent.md
+      description: "Pair a remote AI agent with your browser."
+    - name: speckit.gstack.plan-ceo-review
+      file: commands/plan-ceo-review.md
+      description: "CEO/founder-mode plan review."
+    - name: speckit.gstack.plan-design-review
+      file: commands/plan-design-review.md
+      description: "Designer's eye plan review \u2014 interactive, like CEO and Eng review."
+    - name: speckit.gstack.plan-devex-review
+      file: commands/plan-devex-review.md
+      description: "Interactive developer experience plan review."
+    - name: speckit.gstack.plan-eng-review
+      file: commands/plan-eng-review.md
+      description: "Eng manager-mode plan review."
+    - name: speckit.gstack.plan-tune
+      file: commands/plan-tune.md
+      description: "Self-tuning question sensitivity + developer psychographic for gstack (v1: observational)."
+    - name: speckit.gstack.qa
+      file: commands/qa.md
+      description: "Systematically QA test a web application and fix bugs found."
+    - name: speckit.gstack.qa-only
+      file: commands/qa-only.md
+      description: "Report-only QA testing."
+    - name: speckit.gstack.retro
+      file: commands/retro.md
+      description: "Weekly engineering retrospective."
+    - name: speckit.gstack.review
+      file: commands/review.md
+      description: "Pre-landing PR review."
+    - name: speckit.gstack.scrape
+      file: commands/scrape.md
+      description: "Pull data from a web page."
+    - name: speckit.gstack.setup-browser-cookies
+      file: commands/setup-browser-cookies.md
+      description: "Import cookies from your real Chromium browser into the headless browse session."
+    - name: speckit.gstack.setup-deploy
+      file: commands/setup-deploy.md
+      description: "Configure deployment settings for /land-and-deploy."
+    - name: speckit.gstack.setup-gbrain
+      file: commands/setup-gbrain.md
+      description: "Set up gbrain for this coding agent: install the CLI, initialize a local PGLite or Supabase brain, register MCP, capture per-remote trust policy."
+    - name: speckit.gstack.ship
+      file: commands/ship.md
+      description: "Ship workflow: detect + merge base branch, run tests, review diff, bump VERSION, update CHANGELOG, commit, push, create PR."
+    - name: speckit.gstack.skillify
+      file: commands/skillify.md
+      description: "Codify the most recent successful /scrape flow into a permanent browser-skill on disk."
+    - name: speckit.gstack.spec
+      file: commands/spec.md
+      description: "Turn vague intent into a precise, executable spec in five phases."
+    - name: speckit.gstack.sync-gbrain
+      file: commands/sync-gbrain.md
+      description: "Keep gbrain current with this repo's code and refresh agent search guidance in CLAUDE.md. Wraps the gstack-gbrain-sync orchestrator with state"
+    - name: speckit.gstack.unfreeze
+      file: commands/unfreeze.md
+      description: "Clear the freeze boundary set by /freeze, allowing edits to all directories again."
+
+tags:
+  - gstack
+  - skills
+  - workflow
+  - experimental
