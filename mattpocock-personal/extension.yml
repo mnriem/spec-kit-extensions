@@ -1,0 +1,30 @@
+schema_version: "1.0"
+
+extension:
+  id: mattpocock-personal
+  name: "Matt Pocock Personal"
+  version: "1.0.0"
+  description: "Matt Pocock's personal-setup skills — editing articles and managing an Obsidian vault."
+  author: mattpocock
+  repository: "https://github.com/mnriem/spec-kit-extensions"
+  license: MIT
+  homepage: "https://github.com/mnriem/spec-kit-extensions"
+
+requires:
+  speckit_version: ">=0.2.0"
+
+provides:
+  commands:
+    - name: speckit.mattpocock-personal.edit-article
+      file: commands/edit-article.md
+      description: "Edit and improve articles by restructuring sections, improving clarity, and tightening prose. Use when user wants to edit, revise, or improve an article draft."
+
+    - name: speckit.mattpocock-personal.obsidian-vault
+      file: commands/obsidian-vault.md
+      description: "Search, create, and manage notes in the Obsidian vault with wikilinks and index notes. Use when user wants to find, create, or organize notes in Obsidian."
+
+tags:
+  - personal
+  - writing
+  - notes
+  - skills

@@ -1,0 +1,42 @@
+schema_version: "1.0"
+
+extension:
+  id: mattpocock-productivity
+  name: "Matt Pocock Productivity"
+  version: "1.0.0"
+  description: "Matt Pocock's general workflow skills — grilling plans, conversation handoffs, teaching, and writing great skills."
+  author: mattpocock
+  repository: "https://github.com/mnriem/spec-kit-extensions"
+  license: MIT
+  homepage: "https://github.com/mnriem/spec-kit-extensions"
+
+requires:
+  speckit_version: ">=0.2.0"
+
+provides:
+  commands:
+    - name: speckit.mattpocock-productivity.grill-me
+      file: commands/grill-me.md
+      description: "A relentless interview to sharpen a plan or design."
+
+    - name: speckit.mattpocock-productivity.grilling
+      file: commands/grilling.md
+      description: "Interview the user relentlessly about a plan or design. Use when the user wants to stress-test a plan before building, or uses any 'grill' trigger phrases."
+
+    - name: speckit.mattpocock-productivity.handoff
+      file: commands/handoff.md
+      description: "Compact the current conversation into a handoff document for another agent to pick up."
+
+    - name: speckit.mattpocock-productivity.teach
+      file: commands/teach.md
+      description: "Teach the user a new skill or concept, within this workspace."
+
+    - name: speckit.mattpocock-productivity.writing-great-skills
+      file: commands/writing-great-skills.md
+      description: "Reference for writing and editing skills well — the vocabulary and principles that make a skill predictable."
+
+tags:
+  - productivity
+  - workflow
+  - planning
+  - skills

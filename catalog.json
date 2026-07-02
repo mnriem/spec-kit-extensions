@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-03-18T00:00:00Z",
+  "updated_at": "2026-07-02T00:00:00Z",
   "catalog_url": "https://raw.githubusercontent.com/mnriem/spec-kit-extensions/main/catalog.json",
   "extensions": {
     "aide": {
@@ -55,6 +55,111 @@
         "workflow",
         "validation",
         "experimental"
+      ]
+    },
+    "mattpocock-engineering": {
+      "name": "Matt Pocock Engineering",
+      "id": "mattpocock-engineering",
+      "version": "1.0.0",
+      "description": "Matt Pocock's engineering skills for daily code work — TDD, code review, diagnosing bugs, domain modeling, prototyping, research, and issue/PRD workflows.",
+      "author": "mattpocock",
+      "repository": "https://github.com/mnriem/spec-kit-extensions",
+      "download_url": "https://github.com/mnriem/spec-kit-extensions/releases/download/mattpocock-engineering-v1.0.0/mattpocock-engineering.zip",
+      "homepage": "https://github.com/mnriem/spec-kit-extensions",
+      "documentation": "https://github.com/mnriem/spec-kit-extensions/blob/main/mattpocock-engineering/README.md",
+      "changelog": "https://github.com/mnriem/spec-kit-extensions/blob/main/mattpocock-engineering/CHANGELOG.md",
+      "license": "MIT",
+      "requires": {
+        "speckit_version": ">=0.2.0"
+      },
+      "provides": {
+        "commands": 16,
+        "hooks": 0
+      },
+      "tags": [
+        "engineering",
+        "workflow",
+        "tdd",
+        "code-review",
+        "skills"
+      ]
+    },
+    "mattpocock-misc": {
+      "name": "Matt Pocock Misc",
+      "id": "mattpocock-misc",
+      "version": "1.0.0",
+      "description": "Matt Pocock's occasional-use skills — git guardrails, pre-commit setup, exercise scaffolding, and shoehorn migration.",
+      "author": "mattpocock",
+      "repository": "https://github.com/mnriem/spec-kit-extensions",
+      "download_url": "https://github.com/mnriem/spec-kit-extensions/releases/download/mattpocock-misc-v1.0.0/mattpocock-misc.zip",
+      "homepage": "https://github.com/mnriem/spec-kit-extensions",
+      "documentation": "https://github.com/mnriem/spec-kit-extensions/blob/main/mattpocock-misc/README.md",
+      "changelog": "https://github.com/mnriem/spec-kit-extensions/blob/main/mattpocock-misc/CHANGELOG.md",
+      "license": "MIT",
+      "requires": {
+        "speckit_version": ">=0.2.0"
+      },
+      "provides": {
+        "commands": 4,
+        "hooks": 0
+      },
+      "tags": [
+        "misc",
+        "tooling",
+        "setup",
+        "skills"
+      ]
+    },
+    "mattpocock-personal": {
+      "name": "Matt Pocock Personal",
+      "id": "mattpocock-personal",
+      "version": "1.0.0",
+      "description": "Matt Pocock's personal-setup skills — editing articles and managing an Obsidian vault.",
+      "author": "mattpocock",
+      "repository": "https://github.com/mnriem/spec-kit-extensions",
+      "download_url": "https://github.com/mnriem/spec-kit-extensions/releases/download/mattpocock-personal-v1.0.0/mattpocock-personal.zip",
+      "homepage": "https://github.com/mnriem/spec-kit-extensions",
+      "documentation": "https://github.com/mnriem/spec-kit-extensions/blob/main/mattpocock-personal/README.md",
+      "changelog": "https://github.com/mnriem/spec-kit-extensions/blob/main/mattpocock-personal/CHANGELOG.md",
+      "license": "MIT",
+      "requires": {
+        "speckit_version": ">=0.2.0"
+      },
+      "provides": {
+        "commands": 2,
+        "hooks": 0
+      },
+      "tags": [
+        "personal",
+        "writing",
+        "notes",
+        "skills"
+      ]
+    },
+    "mattpocock-productivity": {
+      "name": "Matt Pocock Productivity",
+      "id": "mattpocock-productivity",
+      "version": "1.0.0",
+      "description": "Matt Pocock's general workflow skills — grilling plans, conversation handoffs, teaching, and writing great skills.",
+      "author": "mattpocock",
+      "repository": "https://github.com/mnriem/spec-kit-extensions",
+      "download_url": "https://github.com/mnriem/spec-kit-extensions/releases/download/mattpocock-productivity-v1.0.0/mattpocock-productivity.zip",
+      "homepage": "https://github.com/mnriem/spec-kit-extensions",
+      "documentation": "https://github.com/mnriem/spec-kit-extensions/blob/main/mattpocock-productivity/README.md",
+      "changelog": "https://github.com/mnriem/spec-kit-extensions/blob/main/mattpocock-productivity/CHANGELOG.md",
+      "license": "MIT",
+      "requires": {
+        "speckit_version": ">=0.2.0"
+      },
+      "provides": {
+        "commands": 5,
+        "hooks": 0
+      },
+      "tags": [
+        "productivity",
+        "workflow",
+        "planning",
+        "skills"
       ]
     },
     "presetify": {
