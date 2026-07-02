@@ -1,0 +1,74 @@
+schema_version: "1.0"
+
+extension:
+  id: agency-agents-gis
+  name: "Agency Agents — GIS"
+  version: "1.0.0"
+  description: "GIS division specialists from the Agency Agents collection (13 agents)."
+  author: spec-kit-community
+  repository: "https://github.com/mnriem/spec-kit-extensions"
+  license: MIT
+  homepage: "https://github.com/mnriem/spec-kit-extensions"
+
+requires:
+  speckit_version: ">=0.2.0"
+
+provides:
+  commands:
+    - name: speckit.agency-agents-gis.3d-scene-developer
+      file: commands/3d-scene-developer.md
+      description: "Web 3D visualization specialist who creates immersive 3D scenes, terrain models, point cloud visualizations, and interactive web experiences using Cesium, ArcGIS Scene Viewer, and modern 3D web frameworks."
+
+    - name: speckit.agency-agents-gis.analyst
+      file: commands/analyst.md
+      description: "Day-to-day GIS operator who creates maps, manages layers, performs spatial queries, and maintains geospatial data integrity across desktop and web environments."
+
+    - name: speckit.agency-agents-gis.bim-specialist
+      file: commands/bim-specialist.md
+      description: "Integration specialist who bridges Building Information Modeling and Geographic Information Systems — Revit/IFC data conversion, indoor mapping, digital twin architecture, and facility management data models."
+
+    - name: speckit.agency-agents-gis.cartography-designer
+      file: commands/cartography-designer.md
+      description: "Map aesthetics specialist who designs beautiful, readable, and effective maps — color theory, typography, label placement, basemap selection, and visual hierarchy for both print and web."
+
+    - name: speckit.agency-agents-gis.drone-reality-mapping
+      file: commands/drone-reality-mapping.md
+      description: "Photogrammetry and reality capture expert who processes drone imagery into orthomosaics, digital terrain models, point clouds, and 3D meshes — bridging field capture and GIS-ready products."
+
+    - name: speckit.agency-agents-gis.geoai-ml-engineer
+      file: commands/geoai-ml-engineer.md
+      description: "Geospatial machine learning specialist who builds models for feature extraction, object detection, image segmentation, and land cover classification from satellite and aerial imagery."
+
+    - name: speckit.agency-agents-gis.geoprocessing-specialist
+      file: commands/geoprocessing-specialist.md
+      description: "ArcPy and Python toolbox expert who automates spatial workflows — builds .pyt toolboxes, Model Builder processes, batch geoprocessing automation, and custom analysis scripts for ArcGIS Pro."
+
+    - name: speckit.agency-agents-gis.qa-engineer
+      file: commands/qa-engineer.md
+      description: "Quality assurance specialist who validates geospatial data integrity — topology checks, metadata audits, CRS consistency, accuracy assessment, and compliance verification."
+
+    - name: speckit.agency-agents-gis.solution-engineer
+      file: commands/solution-engineer.md
+      description: "Hands-on GIS prototype builder who takes strategy from Technical Consultant and turns it into working demos, proof-of-concepts, and technical validations across the full Esri and open-source stack."
+
+    - name: speckit.agency-agents-gis.spatial-data-engineer
+      file: commands/spatial-data-engineer.md
+      description: "ETL specialist who transforms messy geospatial data from any source into clean, standardized, production-ready datasets — format conversion, CRS reprojection, attribute normalization, and automated pipelines."
+
+    - name: speckit.agency-agents-gis.spatial-data-scientist
+      file: commands/spatial-data-scientist.md
+      description: "Advanced spatial analytics specialist who applies statistical modeling, spatial econometrics, clustering, and predictive analytics to geospatial data — finding patterns that aren't visible on a map."
+
+    - name: speckit.agency-agents-gis.technical-consultant
+      file: commands/technical-consultant.md
+      description: "Strategic GIS advisor who translates business problems into geospatial solutions — gap analysis, technology roadmaps, RFP responses, and digital transformation strategy across Esri and open-source ecosystems."
+
+    - name: speckit.agency-agents-gis.web-gis-developer
+      file: commands/web-gis-developer.md
+      description: "Full-stack web GIS engineer who builds interactive mapping applications — MapLibre GL JS, ArcGIS JS API, Leaflet, real-time dashboards, REST API integration, and geospatial web services."
+
+tags:
+  - agency-agents
+  - agents
+  - gis
+  - experimental

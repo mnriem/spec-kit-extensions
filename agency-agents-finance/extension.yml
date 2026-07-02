@@ -1,0 +1,42 @@
+schema_version: "1.0"
+
+extension:
+  id: agency-agents-finance
+  name: "Agency Agents — Finance"
+  version: "1.0.0"
+  description: "Finance division specialists from the Agency Agents collection (5 agents)."
+  author: spec-kit-community
+  repository: "https://github.com/mnriem/spec-kit-extensions"
+  license: MIT
+  homepage: "https://github.com/mnriem/spec-kit-extensions"
+
+requires:
+  speckit_version: ">=0.2.0"
+
+provides:
+  commands:
+    - name: speckit.agency-agents-finance.bookkeeper-controller
+      file: commands/bookkeeper-controller.md
+      description: "Expert bookkeeper and controller specializing in day-to-day accounting operations, financial reconciliations, month-end close processes, and internal controls. Ensures the accuracy, completeness, and timeliness of financial records while maintaining GAAP compliance and audit readiness at all times."
+
+    - name: speckit.agency-agents-finance.financial-analyst
+      file: commands/financial-analyst.md
+      description: "Expert financial analyst specializing in financial modeling, forecasting, scenario analysis, and data-driven decision support. Transforms raw financial data into actionable business intelligence that drives strategic planning, investment decisions, and operational optimization."
+
+    - name: speckit.agency-agents-finance.fpa-analyst
+      file: commands/fpa-analyst.md
+      description: "Expert Financial Planning & Analysis (FP&A) analyst specializing in budgeting, variance analysis, financial planning, rolling forecasts, and strategic decision support. Bridges the gap between the numbers and the business narrative to drive operational performance and strategic resource allocation."
+
+    - name: speckit.agency-agents-finance.investment-researcher
+      file: commands/investment-researcher.md
+      description: "Expert investment researcher specializing in market research, due diligence, portfolio analysis, and asset valuation. Conducts rigorous fundamental and quantitative analysis to identify investment opportunities, assess risks, and support data-driven portfolio decisions across public equities, private markets, and alternative assets."
+
+    - name: speckit.agency-agents-finance.tax-strategist
+      file: commands/tax-strategist.md
+      description: "Expert tax strategist specializing in tax optimization, multi-jurisdictional compliance, transfer pricing, and strategic tax planning. Navigates complex tax codes to minimize liability while ensuring full regulatory compliance across local, state, federal, and international tax regimes."
+
+tags:
+  - agency-agents
+  - agents
+  - finance
+  - experimental

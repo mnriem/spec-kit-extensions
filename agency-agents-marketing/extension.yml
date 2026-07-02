@@ -1,0 +1,166 @@
+schema_version: "1.0"
+
+extension:
+  id: agency-agents-marketing
+  name: "Agency Agents — Marketing"
+  version: "1.0.0"
+  description: "Marketing division specialists from the Agency Agents collection (36 agents)."
+  author: spec-kit-community
+  repository: "https://github.com/mnriem/spec-kit-extensions"
+  license: MIT
+  homepage: "https://github.com/mnriem/spec-kit-extensions"
+
+requires:
+  speckit_version: ">=0.2.0"
+
+provides:
+  commands:
+    - name: speckit.agency-agents-marketing.aeo-foundations
+      file: commands/aeo-foundations.md
+      description: "Expert in AI Engine Optimization infrastructure — implements llms.txt, AI-aware robots.txt, token-budgeted content, structured Markdown availability, and agent discovery files so AI crawlers, citation engines, and browsing agents can find, parse, and act on your site"
+
+    - name: speckit.agency-agents-marketing.agentic-search-optimizer
+      file: commands/agentic-search-optimizer.md
+      description: "Expert in WebMCP readiness and agentic task completion — audits whether AI agents can actually accomplish tasks on your site (book, buy, register, subscribe), implements WebMCP declarative and imperative patterns, and measures task completion rates across AI browsing agents"
+
+    - name: speckit.agency-agents-marketing.ai-citation-strategist
+      file: commands/ai-citation-strategist.md
+      description: "Expert in AI recommendation engine optimization (AEO/GEO) — audits brand visibility across ChatGPT, Claude, Gemini, and Perplexity, identifies why competitors get cited instead, and delivers content fixes that improve AI citations"
+
+    - name: speckit.agency-agents-marketing.app-store-optimizer
+      file: commands/app-store-optimizer.md
+      description: "Expert app store marketing specialist focused on App Store Optimization (ASO), conversion rate optimization, and app discoverability"
+
+    - name: speckit.agency-agents-marketing.baidu-seo-specialist
+      file: commands/baidu-seo-specialist.md
+      description: "Expert Baidu search optimization specialist focused on Chinese search engine ranking, Baidu ecosystem integration, ICP compliance, Chinese keyword research, and mobile-first indexing for the China market."
+
+    - name: speckit.agency-agents-marketing.bilibili-content-strategist
+      file: commands/bilibili-content-strategist.md
+      description: "Expert Bilibili marketing specialist focused on UP主 growth, danmaku culture mastery, B站 algorithm optimization, community building, and branded content strategy for China's leading video community platform."
+
+    - name: speckit.agency-agents-marketing.book-co-author
+      file: commands/book-co-author.md
+      description: "Strategic thought-leadership book collaborator for founders, experts, and operators turning voice notes, fragments, and positioning into structured first-person chapters."
+
+    - name: speckit.agency-agents-marketing.carousel-growth-engine
+      file: commands/carousel-growth-engine.md
+      description: "Autonomous TikTok and Instagram carousel generation specialist. Analyzes any website URL with Playwright, generates viral 6-slide carousels via Gemini image generation, publishes directly to feed via Upload-Post API with auto trending music, fetches analytics, and iteratively improves through a data-driven learning loop."
+
+    - name: speckit.agency-agents-marketing.china-ecommerce-operator
+      file: commands/china-ecommerce-operator.md
+      description: "Expert China e-commerce operations specialist covering Taobao, Tmall, Pinduoduo, and JD ecosystems with deep expertise in product listing optimization, live commerce, store operations, 618/Double 11 campaigns, and cross-platform strategy."
+
+    - name: speckit.agency-agents-marketing.china-market-localization-strategist
+      file: commands/china-market-localization-strategist.md
+      description: "Full-stack China market localization expert who transforms real-time trend signals into executable go-to-market strategies across Douyin, Xiaohongshu, WeChat, Bilibili, and beyond"
+
+    - name: speckit.agency-agents-marketing.content-creator
+      file: commands/content-creator.md
+      description: "Expert content strategist and creator for multi-platform campaigns. Develops editorial calendars, creates compelling copy, manages brand storytelling, and optimizes content for engagement across all digital channels."
+
+    - name: speckit.agency-agents-marketing.cross-border-ecommerce
+      file: commands/cross-border-ecommerce.md
+      description: "Full-funnel cross-border e-commerce strategist covering Amazon, Shopee, Lazada, AliExpress, Temu, and TikTok Shop operations, international logistics and overseas warehousing, compliance and taxation, multilingual listing optimization, brand globalization, and DTC independent site development."
+
+    - name: speckit.agency-agents-marketing.douyin-strategist
+      file: commands/douyin-strategist.md
+      description: "Short-video marketing expert specializing in the Douyin platform, with deep expertise in recommendation algorithm mechanics, viral video planning, livestream commerce workflows, and full-funnel brand growth through content matrix strategies."
+
+    - name: speckit.agency-agents-marketing.email-strategist
+      file: commands/email-strategist.md
+      description: "Expert email marketing strategist for CRM-driven campaigns, lifecycle automation, segmentation architecture, and deliverability. Designs sequences (welcome, nurture, reactivation, win-back, review, referral) grounded in 2025-2026 benchmarks, AI-driven personalization, and post-Apple MPP measurement."
+
+    - name: speckit.agency-agents-marketing.global-podcast-strategist
+      file: commands/global-podcast-strategist.md
+      description: "Expert podcast growth specialist focused on show positioning, audience development, content strategy, and monetisation. Transforms raw ideas into authoritative audio brands that compound listeners and revenue over time on Spotify, Apple Podcasts, and YouTube."
+
+    - name: speckit.agency-agents-marketing.growth-hacker
+      file: commands/growth-hacker.md
+      description: "Expert growth strategist specializing in rapid user acquisition through data-driven experimentation. Develops viral loops, optimizes conversion funnels, and finds scalable growth channels for exponential business growth."
+
+    - name: speckit.agency-agents-marketing.instagram-curator
+      file: commands/instagram-curator.md
+      description: "Expert Instagram marketing specialist focused on visual storytelling, community building, and multi-format content optimization. Masters aesthetic development and drives meaningful engagement."
+
+    - name: speckit.agency-agents-marketing.kuaishou-strategist
+      file: commands/kuaishou-strategist.md
+      description: "Expert Kuaishou marketing strategist specializing in short-video content for China's lower-tier city markets, live commerce operations, community trust building, and grassroots audience growth on 快手."
+
+    - name: speckit.agency-agents-marketing.linkedin-content-creator
+      file: commands/linkedin-content-creator.md
+      description: "Expert LinkedIn content strategist focused on thought leadership, personal brand building, and high-engagement professional content. Masters LinkedIn's algorithm and culture to drive inbound opportunities for founders, job seekers, developers, and anyone building a professional presence."
+
+    - name: speckit.agency-agents-marketing.livestream-commerce-coach
+      file: commands/livestream-commerce-coach.md
+      description: "Veteran livestream e-commerce coach specializing in host training and live room operations across Douyin, Kuaishou, Taobao Live, and Channels, covering script design, product sequencing, paid-vs-organic traffic balancing, conversion closing techniques, and real-time data-driven optimization."
+
+    - name: speckit.agency-agents-marketing.multi-platform-publisher
+      file: commands/multi-platform-publisher.md
+      description: "Expert orchestrator for one-click Chinese blog publishing. Routes a single article to 知乎 / 小红书 / CSDN / B站 / 公众号 / 掘金 via Wechatsync (main channel) with xhs-mcp and biliup as specialized fallbacks. Handles per-platform content adaptation, draft-first publishing, rate control, and risk-avoidance. Does NOT auto-publish — always stops at draft for human review."
+
+    - name: speckit.agency-agents-marketing.podcast-strategist
+      file: commands/podcast-strategist.md
+      description: "Content strategy and operations expert for the Chinese podcast market, with deep expertise in Xiaoyuzhou, Ximalaya, and other major audio platforms, covering show positioning, audio production, audience growth, multi-platform distribution, and monetization to help podcast creators build sticky audio content brands."
+
+    - name: speckit.agency-agents-marketing.pr-communications-manager
+      file: commands/pr-communications-manager.md
+      description: "Strategic public relations and communications specialist for media relations, press releases, crisis communications, executive thought leadership, brand reputation management, and integrated communications planning — building and protecting reputations through earned media, storytelling, and proactive narrative control"
+
+    - name: speckit.agency-agents-marketing.private-domain-operator
+      file: commands/private-domain-operator.md
+      description: "Expert in building enterprise WeChat (WeCom) private domain ecosystems, with deep expertise in SCRM systems, segmented community operations, Mini Program commerce integration, user lifecycle management, and full-funnel conversion optimization."
+
+    - name: speckit.agency-agents-marketing.reddit-community-builder
+      file: commands/reddit-community-builder.md
+      description: "Expert Reddit marketing specialist focused on authentic community engagement, value-driven content creation, and long-term relationship building. Masters Reddit culture navigation."
+
+    - name: speckit.agency-agents-marketing.seo-specialist
+      file: commands/seo-specialist.md
+      description: "Expert search engine optimization strategist specializing in technical SEO, content optimization, link authority building, and organic search growth. Drives sustainable traffic through data-driven search strategies."
+
+    - name: speckit.agency-agents-marketing.short-video-editing-coach
+      file: commands/short-video-editing-coach.md
+      description: "Hands-on short-video editing coach covering the full post-production pipeline, with mastery of CapCut Pro, Premiere Pro, DaVinci Resolve, and Final Cut Pro across composition and camera language, color grading, audio engineering, motion graphics and VFX, subtitle design, multi-platform export optimization, editing workflow efficiency, and AI-assisted editing."
+
+    - name: speckit.agency-agents-marketing.social-media-strategist
+      file: commands/social-media-strategist.md
+      description: "Expert social media strategist for LinkedIn, Twitter, and professional platforms. Creates cross-platform campaigns, builds communities, manages real-time engagement, and develops thought leadership strategies."
+
+    - name: speckit.agency-agents-marketing.tiktok-strategist
+      file: commands/tiktok-strategist.md
+      description: "Expert TikTok marketing specialist focused on viral content creation, algorithm optimization, and community building. Masters TikTok's unique culture and features for brand growth."
+
+    - name: speckit.agency-agents-marketing.twitter-engager
+      file: commands/twitter-engager.md
+      description: "Expert Twitter marketing specialist focused on real-time engagement, thought leadership building, and community-driven growth. Builds brand authority through authentic conversation participation and viral thread creation."
+
+    - name: speckit.agency-agents-marketing.video-optimization-specialist
+      file: commands/video-optimization-specialist.md
+      description: "Video marketing strategist specializing in YouTube algorithm optimization, audience retention, chaptering, thumbnail concepts, and cross-platform video syndication."
+
+    - name: speckit.agency-agents-marketing.wechat-official-account
+      file: commands/wechat-official-account.md
+      description: "Expert WeChat Official Account (OA) strategist specializing in content marketing, subscriber engagement, and conversion optimization. Masters multi-format content and builds loyal communities through consistent value delivery."
+
+    - name: speckit.agency-agents-marketing.weibo-strategist
+      file: commands/weibo-strategist.md
+      description: "Full-spectrum operations expert for Sina Weibo, with deep expertise in trending topic mechanics, Super Topic community management, public sentiment monitoring, fan economy strategies, and Weibo advertising, helping brands achieve viral reach and sustained growth on China's leading public discourse platform."
+
+    - name: speckit.agency-agents-marketing.x-twitter-intelligence-analyst
+      file: commands/x-twitter-intelligence-analyst.md
+      description: "Social intelligence specialist for X/Twitter research, trend detection, account monitoring, and evidence-backed audience insights using public signals and structured data workflows."
+
+    - name: speckit.agency-agents-marketing.xiaohongshu-specialist
+      file: commands/xiaohongshu-specialist.md
+      description: "Expert Xiaohongshu marketing specialist focused on lifestyle content, trend-driven strategies, and authentic community engagement. Masters micro-content creation and drives viral growth through aesthetic storytelling."
+
+    - name: speckit.agency-agents-marketing.zhihu-strategist
+      file: commands/zhihu-strategist.md
+      description: "Expert Zhihu marketing specialist focused on thought leadership, community credibility, and knowledge-driven engagement. Masters question-answering strategy and builds brand authority through authentic expertise sharing."
+
+tags:
+  - agency-agents
+  - agents
+  - marketing
+  - experimental

@@ -1,0 +1,158 @@
+schema_version: "1.0"
+
+extension:
+  id: agency-agents-engineering
+  name: "Agency Agents — Engineering"
+  version: "1.0.0"
+  description: "Engineering division specialists from the Agency Agents collection (34 agents)."
+  author: spec-kit-community
+  repository: "https://github.com/mnriem/spec-kit-extensions"
+  license: MIT
+  homepage: "https://github.com/mnriem/spec-kit-extensions"
+
+requires:
+  speckit_version: ">=0.2.0"
+
+provides:
+  commands:
+    - name: speckit.agency-agents-engineering.ai-data-remediation-engineer
+      file: commands/ai-data-remediation-engineer.md
+      description: "Specialist in self-healing data pipelines — uses air-gapped local SLMs and semantic clustering to automatically detect, classify, and fix data anomalies at scale. Focuses exclusively on the remediation layer: intercepting bad data, generating deterministic fix logic via Ollama, and guaranteeing zero data loss. Not a general data engineer — a surgical specialist for when your data is broken and the pipeline can't stop."
+
+    - name: speckit.agency-agents-engineering.ai-engineer
+      file: commands/ai-engineer.md
+      description: "Expert AI/ML engineer specializing in machine learning model development, deployment, and integration into production systems. Focused on building intelligent features, data pipelines, and AI-powered applications with emphasis on practical, scalable solutions."
+
+    - name: speckit.agency-agents-engineering.autonomous-optimization-architect
+      file: commands/autonomous-optimization-architect.md
+      description: "Intelligent system governor that continuously shadow-tests APIs for performance while enforcing strict financial and security guardrails against runaway costs."
+
+    - name: speckit.agency-agents-engineering.backend-architect
+      file: commands/backend-architect.md
+      description: "Senior backend architect specializing in scalable system design, database architecture, API development, and cloud infrastructure. Builds robust, secure, performant server-side applications and microservices"
+
+    - name: speckit.agency-agents-engineering.cms-developer
+      file: commands/cms-developer.md
+      description: "Drupal and WordPress specialist for theme development, custom plugins/modules, content architecture, and code-first CMS implementation"
+
+    - name: speckit.agency-agents-engineering.code-reviewer
+      file: commands/code-reviewer.md
+      description: "Expert code reviewer who provides constructive, actionable feedback focused on correctness, maintainability, security, and performance — not style preferences."
+
+    - name: speckit.agency-agents-engineering.codebase-onboarding-engineer
+      file: commands/codebase-onboarding-engineer.md
+      description: "Expert developer onboarding specialist who helps new engineers understand unfamiliar codebases fast by reading source code, tracing code paths, and stating only facts grounded in the code."
+
+    - name: speckit.agency-agents-engineering.data-engineer
+      file: commands/data-engineer.md
+      description: "Expert data engineer specializing in building reliable data pipelines, lakehouse architectures, and scalable data infrastructure. Masters ETL/ELT, Apache Spark, dbt, streaming systems, and cloud data platforms to turn raw data into trusted, analytics-ready assets."
+
+    - name: speckit.agency-agents-engineering.database-optimizer
+      file: commands/database-optimizer.md
+      description: "Expert database specialist focusing on schema design, query optimization, indexing strategies, and performance tuning for PostgreSQL, MySQL, and modern databases like Supabase and PlanetScale."
+
+    - name: speckit.agency-agents-engineering.devops-automator
+      file: commands/devops-automator.md
+      description: "Expert DevOps engineer specializing in infrastructure automation, CI/CD pipeline development, and cloud operations"
+
+    - name: speckit.agency-agents-engineering.drupal-shopping-cart
+      file: commands/drupal-shopping-cart.md
+      description: "Expert Drupal e-commerce engineer specializing in Drupal Commerce for product catalog management, payment gateway integration, checkout workflow design, order management, tax and promotion configuration, and high-reliability storefront delivery on Drupal 10/11"
+
+    - name: speckit.agency-agents-engineering.email-intelligence-engineer
+      file: commands/email-intelligence-engineer.md
+      description: "Expert in extracting structured, reasoning-ready data from raw email threads for AI agents and automation systems"
+
+    - name: speckit.agency-agents-engineering.embedded-firmware-engineer
+      file: commands/embedded-firmware-engineer.md
+      description: "Specialist in bare-metal and RTOS firmware - ESP32/ESP-IDF, PlatformIO, Arduino, ARM Cortex-M, STM32 HAL/LL, Nordic nRF5/nRF Connect SDK, FreeRTOS, Zephyr"
+
+    - name: speckit.agency-agents-engineering.feishu-integration-developer
+      file: commands/feishu-integration-developer.md
+      description: "Full-stack integration expert specializing in the Feishu (Lark) Open Platform — proficient in Feishu bots, mini programs, approval workflows, Bitable (multidimensional spreadsheets), interactive message cards, Webhooks, SSO authentication, and workflow automation, building enterprise-grade collaboration and automation solutions within the Feishu ecosystem."
+
+    - name: speckit.agency-agents-engineering.filament-optimization-specialist
+      file: commands/filament-optimization-specialist.md
+      description: "Expert in restructuring and optimizing Filament PHP admin interfaces for maximum usability and efficiency. Focuses on impactful structural changes — not just cosmetic tweaks."
+
+    - name: speckit.agency-agents-engineering.frontend-developer
+      file: commands/frontend-developer.md
+      description: "Expert frontend developer specializing in modern web technologies, React/Vue/Angular frameworks, UI implementation, and performance optimization"
+
+    - name: speckit.agency-agents-engineering.git-workflow-master
+      file: commands/git-workflow-master.md
+      description: "Expert in Git workflows, branching strategies, and version control best practices including conventional commits, rebasing, worktrees, and CI-friendly branch management."
+
+    - name: speckit.agency-agents-engineering.incident-response-commander
+      file: commands/incident-response-commander.md
+      description: "Expert incident commander specializing in production incident management, structured response coordination, post-mortem facilitation, SLO/SLI tracking, and on-call process design for reliable engineering organizations."
+
+    - name: speckit.agency-agents-engineering.it-service-manager
+      file: commands/it-service-manager.md
+      description: "Expert IT service management specialist using ITIL 4 framework for service catalog design, incident and problem management, change control, SLA governance, CMDB maintenance, and continual service improvement — ensuring IT delivers reliable, measurable business value across any organization size"
+
+    - name: speckit.agency-agents-engineering.minimal-change-engineer
+      file: commands/minimal-change-engineer.md
+      description: "Engineering specialist focused on minimum-viable diffs — fixes only what was asked, refuses scope creep, prefers three similar lines over a premature abstraction. The discipline that prevents bug-fix PRs from becoming refactor avalanches."
+
+    - name: speckit.agency-agents-engineering.mobile-app-builder
+      file: commands/mobile-app-builder.md
+      description: "Specialized mobile application developer with expertise in native iOS/Android development and cross-platform frameworks"
+
+    - name: speckit.agency-agents-engineering.multi-agent-systems-architect
+      file: commands/multi-agent-systems-architect.md
+      description: "Systems architect specializing in the design, coordination, and governance of multi-agent AI pipelines — covering topology selection, context management, inter-agent trust, failure recovery, human-in-the-loop gating, and observability for production-grade agent systems."
+
+    - name: speckit.agency-agents-engineering.network-engineer
+      file: commands/network-engineer.md
+      description: "Expert network engineer for Cisco IOS/IOS-XE, Cisco ASA/FTD, Juniper Junos, and Palo Alto PAN-OS routing, switching, firewalling, and troubleshooting."
+
+    - name: speckit.agency-agents-engineering.orgscript-engineer
+      file: commands/orgscript-engineer.md
+      description: "Expert in designing, parsing, and implementing OrgScript grammar, AST validation, and business logic definitions."
+
+    - name: speckit.agency-agents-engineering.prompt-engineer
+      file: commands/prompt-engineer.md
+      description: "Specialist in crafting, testing, and systematically optimizing prompts for LLMs — turning vague instructions into reliable, production-grade AI behaviors."
+
+    - name: speckit.agency-agents-engineering.rapid-prototyper
+      file: commands/rapid-prototyper.md
+      description: "Specialized in ultra-fast proof-of-concept development and MVP creation using efficient tools and frameworks"
+
+    - name: speckit.agency-agents-engineering.senior-developer
+      file: commands/senior-developer.md
+      description: "Premium implementation specialist - Masters Laravel/Livewire/FluxUI, advanced CSS, Three.js integration"
+
+    - name: speckit.agency-agents-engineering.software-architect
+      file: commands/software-architect.md
+      description: "Expert software architect specializing in system design, domain-driven design, architectural patterns, and technical decision-making for scalable, maintainable systems."
+
+    - name: speckit.agency-agents-engineering.solidity-smart-contract-engineer
+      file: commands/solidity-smart-contract-engineer.md
+      description: "Expert Solidity developer specializing in EVM smart contract architecture, gas optimization, upgradeable proxy patterns, DeFi protocol development, and security-first contract design across Ethereum and L2 chains."
+
+    - name: speckit.agency-agents-engineering.sre
+      file: commands/sre.md
+      description: "Expert site reliability engineer specializing in SLOs, error budgets, observability, chaos engineering, and toil reduction for production systems at scale."
+
+    - name: speckit.agency-agents-engineering.technical-writer
+      file: commands/technical-writer.md
+      description: "Expert technical writer specializing in developer documentation, API references, README files, and tutorials. Transforms complex engineering concepts into clear, accurate, and engaging docs that developers actually read and use."
+
+    - name: speckit.agency-agents-engineering.voice-ai-integration-engineer
+      file: commands/voice-ai-integration-engineer.md
+      description: "Expert in building end-to-end speech transcription pipelines using Whisper-style models and cloud ASR services — from raw audio ingestion through preprocessing, transcript cleanup, subtitle generation, speaker diarization, and structured downstream integration into apps, APIs, and CMS platforms."
+
+    - name: speckit.agency-agents-engineering.wechat-mini-program-developer
+      file: commands/wechat-mini-program-developer.md
+      description: "Expert WeChat Mini Program developer specializing in 小程序 development with WXML/WXSS/WXS, WeChat API integration, payment systems, subscription messaging, and the full WeChat ecosystem."
+
+    - name: speckit.agency-agents-engineering.wordpress-shopping-cart
+      file: commands/wordpress-shopping-cart.md
+      description: "Expert WordPress e-commerce engineer specializing in WooCommerce for product catalog management, payment gateway integration, checkout customization, order management, tax and coupon configuration, and conversion-optimized storefront delivery on WordPress"
+
+tags:
+  - agency-agents
+  - agents
+  - engineering
+  - experimental

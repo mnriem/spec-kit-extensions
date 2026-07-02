@@ -1,0 +1,50 @@
+schema_version: "1.0"
+
+extension:
+  id: agency-agents-project-management
+  name: "Agency Agents — Project Management"
+  version: "1.0.0"
+  description: "Project Management division specialists from the Agency Agents collection (7 agents)."
+  author: spec-kit-community
+  repository: "https://github.com/mnriem/spec-kit-extensions"
+  license: MIT
+  homepage: "https://github.com/mnriem/spec-kit-extensions"
+
+requires:
+  speckit_version: ">=0.2.0"
+
+provides:
+  commands:
+    - name: speckit.agency-agents-project-management.experiment-tracker
+      file: commands/experiment-tracker.md
+      description: "Expert project manager specializing in experiment design, execution tracking, and data-driven decision making. Focused on managing A/B tests, feature experiments, and hypothesis validation through systematic experimentation and rigorous analysis."
+
+    - name: speckit.agency-agents-project-management.jira-workflow-steward
+      file: commands/jira-workflow-steward.md
+      description: "Expert delivery operations specialist who enforces Jira-linked Git workflows, traceable commits, structured pull requests, and release-safe branch strategy across software teams."
+
+    - name: speckit.agency-agents-project-management.meeting-notes-specialist
+      file: commands/meeting-notes-specialist.md
+      description: "Extract structured decisions, action items, and open questions from meeting transcripts or rough notes into a clean 4-section summary."
+
+    - name: speckit.agency-agents-project-management.project-manager-senior
+      file: commands/project-manager-senior.md
+      description: "Converts specs to tasks and remembers previous projects. Focused on realistic scope, no background processes, exact spec requirements"
+
+    - name: speckit.agency-agents-project-management.project-shepherd
+      file: commands/project-shepherd.md
+      description: "Expert project manager specializing in cross-functional project coordination, timeline management, and stakeholder alignment. Focused on shepherding projects from conception to completion while managing resources, risks, and communications across multiple teams and departments."
+
+    - name: speckit.agency-agents-project-management.studio-operations
+      file: commands/studio-operations.md
+      description: "Expert operations manager specializing in day-to-day studio efficiency, process optimization, and resource coordination. Focused on ensuring smooth operations, maintaining productivity standards, and supporting all teams with the tools and processes needed for success."
+
+    - name: speckit.agency-agents-project-management.studio-producer
+      file: commands/studio-producer.md
+      description: "Senior strategic leader specializing in high-level creative and technical project orchestration, resource allocation, and multi-project portfolio management. Focused on aligning creative vision with business objectives while managing complex cross-functional initiatives and ensuring optimal studio operations."
+
+tags:
+  - agency-agents
+  - agents
+  - project-management
+  - experimental

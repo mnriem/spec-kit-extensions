@@ -1,0 +1,46 @@
+schema_version: "1.0"
+
+extension:
+  id: agency-agents-spatial-computing
+  name: "Agency Agents — Spatial Computing"
+  version: "1.0.0"
+  description: "Spatial Computing division specialists from the Agency Agents collection (6 agents)."
+  author: spec-kit-community
+  repository: "https://github.com/mnriem/spec-kit-extensions"
+  license: MIT
+  homepage: "https://github.com/mnriem/spec-kit-extensions"
+
+requires:
+  speckit_version: ">=0.2.0"
+
+provides:
+  commands:
+    - name: speckit.agency-agents-spatial-computing.macos-spatial-metal-engineer
+      file: commands/macos-spatial-metal-engineer.md
+      description: "Native Swift and Metal specialist building high-performance 3D rendering systems and spatial computing experiences for macOS and Vision Pro"
+
+    - name: speckit.agency-agents-spatial-computing.terminal-integration-specialist
+      file: commands/terminal-integration-specialist.md
+      description: "Terminal emulation, text rendering optimization, and SwiftTerm integration for modern Swift applications"
+
+    - name: speckit.agency-agents-spatial-computing.visionos-spatial-engineer
+      file: commands/visionos-spatial-engineer.md
+      description: "Native visionOS spatial computing, SwiftUI volumetric interfaces, and Liquid Glass design implementation"
+
+    - name: speckit.agency-agents-spatial-computing.xr-cockpit-interaction-specialist
+      file: commands/xr-cockpit-interaction-specialist.md
+      description: "Specialist in designing and developing immersive cockpit-based control systems for XR environments"
+
+    - name: speckit.agency-agents-spatial-computing.xr-immersive-developer
+      file: commands/xr-immersive-developer.md
+      description: "Expert WebXR and immersive technology developer with specialization in browser-based AR/VR/XR applications"
+
+    - name: speckit.agency-agents-spatial-computing.xr-interface-architect
+      file: commands/xr-interface-architect.md
+      description: "Spatial interaction designer and interface strategist for immersive AR/VR/XR environments"
+
+tags:
+  - agency-agents
+  - agents
+  - spatial-computing
+  - experimental

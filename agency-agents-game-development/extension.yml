@@ -1,0 +1,102 @@
+schema_version: "1.0"
+
+extension:
+  id: agency-agents-game-development
+  name: "Agency Agents — Game Development"
+  version: "1.0.0"
+  description: "Game Development division specialists from the Agency Agents collection (20 agents)."
+  author: spec-kit-community
+  repository: "https://github.com/mnriem/spec-kit-extensions"
+  license: MIT
+  homepage: "https://github.com/mnriem/spec-kit-extensions"
+
+requires:
+  speckit_version: ">=0.2.0"
+
+provides:
+  commands:
+    - name: speckit.agency-agents-game-development.blender-addon-engineer
+      file: commands/blender-addon-engineer.md
+      description: "Blender tooling specialist - Builds Python add-ons, asset validators, exporters, and pipeline automations that turn repetitive DCC work into reliable one-click workflows"
+
+    - name: speckit.agency-agents-game-development.game-audio-engineer
+      file: commands/game-audio-engineer.md
+      description: "Interactive audio specialist - Masters FMOD/Wwise integration, adaptive music systems, spatial audio, and audio performance budgeting across all game engines"
+
+    - name: speckit.agency-agents-game-development.game-designer
+      file: commands/game-designer.md
+      description: "Systems and mechanics architect - Masters GDD authorship, player psychology, economy balancing, and gameplay loop design across all engines and genres"
+
+    - name: speckit.agency-agents-game-development.godot-gameplay-scripter
+      file: commands/godot-gameplay-scripter.md
+      description: "Composition and signal integrity specialist - Masters GDScript 2.0, C# integration, node-based architecture, and type-safe signal design for Godot 4 projects"
+
+    - name: speckit.agency-agents-game-development.godot-multiplayer-engineer
+      file: commands/godot-multiplayer-engineer.md
+      description: "Godot 4 networking specialist - Masters the MultiplayerAPI, scene replication, ENet/WebRTC transport, RPCs, and authority models for real-time multiplayer games"
+
+    - name: speckit.agency-agents-game-development.godot-shader-developer
+      file: commands/godot-shader-developer.md
+      description: "Godot 4 visual effects specialist - Masters the Godot Shading Language (GLSL-like), VisualShader editor, CanvasItem and Spatial shaders, post-processing, and performance optimization for 2D/3D effects"
+
+    - name: speckit.agency-agents-game-development.level-designer
+      file: commands/level-designer.md
+      description: "Spatial storytelling and flow specialist - Masters layout theory, pacing architecture, encounter design, and environmental narrative across all game engines"
+
+    - name: speckit.agency-agents-game-development.narrative-designer
+      file: commands/narrative-designer.md
+      description: "Story systems and dialogue architect - Masters GDD-aligned narrative design, branching dialogue, lore architecture, and environmental storytelling across all game engines"
+
+    - name: speckit.agency-agents-game-development.roblox-avatar-creator
+      file: commands/roblox-avatar-creator.md
+      description: "Roblox UGC and avatar pipeline specialist - Masters Roblox's avatar system, UGC item creation, accessory rigging, texture standards, and the Creator Marketplace submission pipeline"
+
+    - name: speckit.agency-agents-game-development.roblox-experience-designer
+      file: commands/roblox-experience-designer.md
+      description: "Roblox platform UX and monetization specialist - Masters engagement loop design, DataStore-driven progression, Roblox monetization systems (Passes, Developer Products, UGC), and player retention for Roblox experiences"
+
+    - name: speckit.agency-agents-game-development.roblox-systems-scripter
+      file: commands/roblox-systems-scripter.md
+      description: "Roblox platform engineering specialist - Masters Luau, the client-server security model, RemoteEvents/RemoteFunctions, DataStore, and module architecture for scalable Roblox experiences"
+
+    - name: speckit.agency-agents-game-development.technical-artist
+      file: commands/technical-artist.md
+      description: "Art-to-engine pipeline specialist - Masters shaders, VFX systems, LOD pipelines, performance budgeting, and cross-engine asset optimization"
+
+    - name: speckit.agency-agents-game-development.unity-architect
+      file: commands/unity-architect.md
+      description: "Data-driven modularity specialist - Masters ScriptableObjects, decoupled systems, and single-responsibility component design for scalable Unity projects"
+
+    - name: speckit.agency-agents-game-development.unity-editor-tool-developer
+      file: commands/unity-editor-tool-developer.md
+      description: "Unity editor automation specialist - Masters custom EditorWindows, PropertyDrawers, AssetPostprocessors, ScriptedImporters, and pipeline automation that saves teams hours per week"
+
+    - name: speckit.agency-agents-game-development.unity-multiplayer-engineer
+      file: commands/unity-multiplayer-engineer.md
+      description: "Networked gameplay specialist - Masters Netcode for GameObjects, Unity Gaming Services (Relay/Lobby), client-server authority, lag compensation, and state synchronization"
+
+    - name: speckit.agency-agents-game-development.unity-shader-graph-artist
+      file: commands/unity-shader-graph-artist.md
+      description: "Visual effects and material specialist - Masters Unity Shader Graph, HLSL, URP/HDRP rendering pipelines, and custom pass authoring for real-time visual effects"
+
+    - name: speckit.agency-agents-game-development.unreal-multiplayer-architect
+      file: commands/unreal-multiplayer-architect.md
+      description: "Unreal Engine networking specialist - Masters Actor replication, GameMode/GameState architecture, server-authoritative gameplay, network prediction, and dedicated server setup for UE5"
+
+    - name: speckit.agency-agents-game-development.unreal-systems-engineer
+      file: commands/unreal-systems-engineer.md
+      description: "Performance and hybrid architecture specialist - Masters C++/Blueprint continuum, Nanite geometry, Lumen GI, and Gameplay Ability System for AAA-grade Unreal Engine projects"
+
+    - name: speckit.agency-agents-game-development.unreal-technical-artist
+      file: commands/unreal-technical-artist.md
+      description: "Unreal Engine visual pipeline specialist - Masters the Material Editor, Niagara VFX, Procedural Content Generation, and the art-to-engine pipeline for UE5 projects"
+
+    - name: speckit.agency-agents-game-development.unreal-world-builder
+      file: commands/unreal-world-builder.md
+      description: "Open-world and environment specialist - Masters UE5 World Partition, Landscape, procedural foliage, HLOD, and large-scale level streaming for seamless open-world experiences"
+
+tags:
+  - agency-agents
+  - agents
+  - game-development
+  - experimental

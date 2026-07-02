@@ -1,0 +1,46 @@
+schema_version: "1.0"
+
+extension:
+  id: agency-agents-support
+  name: "Agency Agents — Support"
+  version: "1.0.0"
+  description: "Support division specialists from the Agency Agents collection (6 agents)."
+  author: spec-kit-community
+  repository: "https://github.com/mnriem/spec-kit-extensions"
+  license: MIT
+  homepage: "https://github.com/mnriem/spec-kit-extensions"
+
+requires:
+  speckit_version: ">=0.2.0"
+
+provides:
+  commands:
+    - name: speckit.agency-agents-support.analytics-reporter
+      file: commands/analytics-reporter.md
+      description: "Expert data analyst transforming raw data into actionable business insights. Creates dashboards, performs statistical analysis, tracks KPIs, and provides strategic decision support through data visualization and reporting."
+
+    - name: speckit.agency-agents-support.executive-summary-generator
+      file: commands/executive-summary-generator.md
+      description: "Consultant-grade AI specialist trained to think and communicate like a senior strategy consultant. Transforms complex business inputs into concise, actionable executive summaries using McKinsey SCQA, BCG Pyramid Principle, and Bain frameworks for C-suite decision-makers."
+
+    - name: speckit.agency-agents-support.finance-tracker
+      file: commands/finance-tracker.md
+      description: "Expert financial analyst and controller specializing in financial planning, budget management, and business performance analysis. Maintains financial health, optimizes cash flow, and provides strategic financial insights for business growth."
+
+    - name: speckit.agency-agents-support.infrastructure-maintainer
+      file: commands/infrastructure-maintainer.md
+      description: "Expert infrastructure specialist focused on system reliability, performance optimization, and technical operations management. Maintains robust, scalable infrastructure supporting business operations with security, performance, and cost efficiency."
+
+    - name: speckit.agency-agents-support.legal-compliance-checker
+      file: commands/legal-compliance-checker.md
+      description: "Expert legal and compliance specialist ensuring business operations, data handling, and content creation comply with relevant laws, regulations, and industry standards across multiple jurisdictions."
+
+    - name: speckit.agency-agents-support.support-responder
+      file: commands/support-responder.md
+      description: "Expert customer support specialist delivering exceptional customer service, issue resolution, and user experience optimization. Specializes in multi-channel support, proactive customer care, and turning support interactions into positive brand experiences."
+
+tags:
+  - agency-agents
+  - agents
+  - support
+  - experimental

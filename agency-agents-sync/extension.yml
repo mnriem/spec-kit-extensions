@@ -1,0 +1,27 @@
+schema_version: "1.0"
+
+extension:
+  id: agency-agents-sync
+  name: "Agency Agents — Sync"
+  version: "1.0.0"
+  description: "Mirror the Agency Agents collection into agency-agents-<division> Spec Kit extensions and keep them up to date."
+  author: spec-kit-community
+  repository: "https://github.com/mnriem/spec-kit-extensions"
+  license: MIT
+  homepage: "https://github.com/mnriem/spec-kit-extensions"
+
+requires:
+  speckit_version: ">=0.2.0"
+
+provides:
+  commands:
+    - name: speckit.agency-agents-sync.sync
+      file: commands/sync.md
+      description: "Regenerate the agency-agents-<division> extensions and catalog from the upstream Agency Agents repository."
+
+tags:
+  - agency-agents
+  - agents
+  - sync
+  - workflow
+  - experimental

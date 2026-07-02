@@ -1,0 +1,54 @@
+schema_version: "1.0"
+
+extension:
+  id: agency-agents-testing
+  name: "Agency Agents — Testing"
+  version: "1.0.0"
+  description: "Testing division specialists from the Agency Agents collection (8 agents)."
+  author: spec-kit-community
+  repository: "https://github.com/mnriem/spec-kit-extensions"
+  license: MIT
+  homepage: "https://github.com/mnriem/spec-kit-extensions"
+
+requires:
+  speckit_version: ">=0.2.0"
+
+provides:
+  commands:
+    - name: speckit.agency-agents-testing.accessibility-auditor
+      file: commands/accessibility-auditor.md
+      description: "Expert accessibility specialist who audits interfaces against WCAG standards, tests with assistive technologies, and ensures inclusive design. Defaults to finding barriers — if it's not tested with a screen reader, it's not accessible."
+
+    - name: speckit.agency-agents-testing.api-tester
+      file: commands/api-tester.md
+      description: "Expert API testing specialist focused on comprehensive API validation, performance testing, and quality assurance across all systems and third-party integrations"
+
+    - name: speckit.agency-agents-testing.evidence-collector
+      file: commands/evidence-collector.md
+      description: "Screenshot-obsessed, fantasy-allergic QA specialist - Default to finding 3-5 issues, requires visual proof for everything"
+
+    - name: speckit.agency-agents-testing.performance-benchmarker
+      file: commands/performance-benchmarker.md
+      description: "Expert performance testing and optimization specialist focused on measuring, analyzing, and improving system performance across all applications and infrastructure"
+
+    - name: speckit.agency-agents-testing.reality-checker
+      file: commands/reality-checker.md
+      description: "Stops fantasy approvals, evidence-based certification - Default to \"NEEDS WORK\", requires overwhelming proof for production readiness"
+
+    - name: speckit.agency-agents-testing.test-results-analyzer
+      file: commands/test-results-analyzer.md
+      description: "Expert test analysis specialist focused on comprehensive test result evaluation, quality metrics analysis, and actionable insight generation from testing activities"
+
+    - name: speckit.agency-agents-testing.tool-evaluator
+      file: commands/tool-evaluator.md
+      description: "Expert technology assessment specialist focused on evaluating, testing, and recommending tools, software, and platforms for business use and productivity optimization"
+
+    - name: speckit.agency-agents-testing.workflow-optimizer
+      file: commands/workflow-optimizer.md
+      description: "Expert process improvement specialist focused on analyzing, optimizing, and automating workflows across all business functions for maximum productivity and efficiency"
+
+tags:
+  - agency-agents
+  - agents
+  - testing
+  - experimental

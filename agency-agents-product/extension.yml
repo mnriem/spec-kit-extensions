@@ -1,0 +1,42 @@
+schema_version: "1.0"
+
+extension:
+  id: agency-agents-product
+  name: "Agency Agents — Product"
+  version: "1.0.0"
+  description: "Product division specialists from the Agency Agents collection (5 agents)."
+  author: spec-kit-community
+  repository: "https://github.com/mnriem/spec-kit-extensions"
+  license: MIT
+  homepage: "https://github.com/mnriem/spec-kit-extensions"
+
+requires:
+  speckit_version: ">=0.2.0"
+
+provides:
+  commands:
+    - name: speckit.agency-agents-product.behavioral-nudge-engine
+      file: commands/behavioral-nudge-engine.md
+      description: "Behavioral psychology specialist that adapts software interaction cadences and styles to maximize user motivation and success."
+
+    - name: speckit.agency-agents-product.feedback-synthesizer
+      file: commands/feedback-synthesizer.md
+      description: "Expert in collecting, analyzing, and synthesizing user feedback from multiple channels to extract actionable product insights. Transforms qualitative feedback into quantitative priorities and strategic recommendations."
+
+    - name: speckit.agency-agents-product.manager
+      file: commands/manager.md
+      description: "Holistic product leader who owns the full product lifecycle — from discovery and strategy through roadmap, stakeholder alignment, go-to-market, and outcome measurement. Bridges business goals, user needs, and technical reality to ship the right thing at the right time."
+
+    - name: speckit.agency-agents-product.sprint-prioritizer
+      file: commands/sprint-prioritizer.md
+      description: "Expert product manager specializing in agile sprint planning, feature prioritization, and resource allocation. Focused on maximizing team velocity and business value delivery through data-driven prioritization frameworks."
+
+    - name: speckit.agency-agents-product.trend-researcher
+      file: commands/trend-researcher.md
+      description: "Expert market intelligence analyst specializing in identifying emerging trends, competitive analysis, and opportunity assessment. Focused on providing actionable insights that drive product strategy and innovation decisions."
+
+tags:
+  - agency-agents
+  - agents
+  - product
+  - experimental

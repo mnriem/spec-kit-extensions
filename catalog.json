@@ -1,13 +1,456 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-03-18T00:00:00Z",
+  "updated_at": "2026-07-02T00:00:00Z",
   "catalog_url": "https://raw.githubusercontent.com/mnriem/spec-kit-extensions/main/catalog.json",
   "extensions": {
+    "agency-agents-academic": {
+      "name": "Agency Agents \u2014 Academic",
+      "id": "agency-agents-academic",
+      "version": "1.0.0",
+      "description": "Academic division specialists from the Agency Agents collection (5 agents).",
+      "author": "spec-kit-community",
+      "repository": "https://github.com/mnriem/spec-kit-extensions",
+      "download_url": "https://github.com/mnriem/spec-kit-extensions/releases/download/agency-agents-academic-v1.0.0/agency-agents-academic.zip",
+      "homepage": "https://github.com/mnriem/spec-kit-extensions",
+      "documentation": "https://github.com/mnriem/spec-kit-extensions/blob/main/agency-agents-academic/README.md",
+      "changelog": "https://github.com/mnriem/spec-kit-extensions/blob/main/agency-agents-academic/CHANGELOG.md",
+      "license": "MIT",
+      "requires": {
+        "speckit_version": ">=0.2.0"
+      },
+      "provides": {
+        "commands": 5,
+        "hooks": 0
+      },
+      "tags": [
+        "agency-agents",
+        "agents",
+        "academic",
+        "experimental"
+      ]
+    },
+    "agency-agents-design": {
+      "name": "Agency Agents \u2014 Design",
+      "id": "agency-agents-design",
+      "version": "1.0.0",
+      "description": "Design division specialists from the Agency Agents collection (9 agents).",
+      "author": "spec-kit-community",
+      "repository": "https://github.com/mnriem/spec-kit-extensions",
+      "download_url": "https://github.com/mnriem/spec-kit-extensions/releases/download/agency-agents-design-v1.0.0/agency-agents-design.zip",
+      "homepage": "https://github.com/mnriem/spec-kit-extensions",
+      "documentation": "https://github.com/mnriem/spec-kit-extensions/blob/main/agency-agents-design/README.md",
+      "changelog": "https://github.com/mnriem/spec-kit-extensions/blob/main/agency-agents-design/CHANGELOG.md",
+      "license": "MIT",
+      "requires": {
+        "speckit_version": ">=0.2.0"
+      },
+      "provides": {
+        "commands": 9,
+        "hooks": 0
+      },
+      "tags": [
+        "agency-agents",
+        "agents",
+        "design",
+        "experimental"
+      ]
+    },
+    "agency-agents-engineering": {
+      "name": "Agency Agents \u2014 Engineering",
+      "id": "agency-agents-engineering",
+      "version": "1.0.0",
+      "description": "Engineering division specialists from the Agency Agents collection (34 agents).",
+      "author": "spec-kit-community",
+      "repository": "https://github.com/mnriem/spec-kit-extensions",
+      "download_url": "https://github.com/mnriem/spec-kit-extensions/releases/download/agency-agents-engineering-v1.0.0/agency-agents-engineering.zip",
+      "homepage": "https://github.com/mnriem/spec-kit-extensions",
+      "documentation": "https://github.com/mnriem/spec-kit-extensions/blob/main/agency-agents-engineering/README.md",
+      "changelog": "https://github.com/mnriem/spec-kit-extensions/blob/main/agency-agents-engineering/CHANGELOG.md",
+      "license": "MIT",
+      "requires": {
+        "speckit_version": ">=0.2.0"
+      },
+      "provides": {
+        "commands": 34,
+        "hooks": 0
+      },
+      "tags": [
+        "agency-agents",
+        "agents",
+        "engineering",
+        "experimental"
+      ]
+    },
+    "agency-agents-finance": {
+      "name": "Agency Agents \u2014 Finance",
+      "id": "agency-agents-finance",
+      "version": "1.0.0",
+      "description": "Finance division specialists from the Agency Agents collection (5 agents).",
+      "author": "spec-kit-community",
+      "repository": "https://github.com/mnriem/spec-kit-extensions",
+      "download_url": "https://github.com/mnriem/spec-kit-extensions/releases/download/agency-agents-finance-v1.0.0/agency-agents-finance.zip",
+      "homepage": "https://github.com/mnriem/spec-kit-extensions",
+      "documentation": "https://github.com/mnriem/spec-kit-extensions/blob/main/agency-agents-finance/README.md",
+      "changelog": "https://github.com/mnriem/spec-kit-extensions/blob/main/agency-agents-finance/CHANGELOG.md",
+      "license": "MIT",
+      "requires": {
+        "speckit_version": ">=0.2.0"
+      },
+      "provides": {
+        "commands": 5,
+        "hooks": 0
+      },
+      "tags": [
+        "agency-agents",
+        "agents",
+        "finance",
+        "experimental"
+      ]
+    },
+    "agency-agents-game-development": {
+      "name": "Agency Agents \u2014 Game Development",
+      "id": "agency-agents-game-development",
+      "version": "1.0.0",
+      "description": "Game Development division specialists from the Agency Agents collection (20 agents).",
+      "author": "spec-kit-community",
+      "repository": "https://github.com/mnriem/spec-kit-extensions",
+      "download_url": "https://github.com/mnriem/spec-kit-extensions/releases/download/agency-agents-game-development-v1.0.0/agency-agents-game-development.zip",
+      "homepage": "https://github.com/mnriem/spec-kit-extensions",
+      "documentation": "https://github.com/mnriem/spec-kit-extensions/blob/main/agency-agents-game-development/README.md",
+      "changelog": "https://github.com/mnriem/spec-kit-extensions/blob/main/agency-agents-game-development/CHANGELOG.md",
+      "license": "MIT",
+      "requires": {
+        "speckit_version": ">=0.2.0"
+      },
+      "provides": {
+        "commands": 20,
+        "hooks": 0
+      },
+      "tags": [
+        "agency-agents",
+        "agents",
+        "game-development",
+        "experimental"
+      ]
+    },
+    "agency-agents-gis": {
+      "name": "Agency Agents \u2014 GIS",
+      "id": "agency-agents-gis",
+      "version": "1.0.0",
+      "description": "GIS division specialists from the Agency Agents collection (13 agents).",
+      "author": "spec-kit-community",
+      "repository": "https://github.com/mnriem/spec-kit-extensions",
+      "download_url": "https://github.com/mnriem/spec-kit-extensions/releases/download/agency-agents-gis-v1.0.0/agency-agents-gis.zip",
+      "homepage": "https://github.com/mnriem/spec-kit-extensions",
+      "documentation": "https://github.com/mnriem/spec-kit-extensions/blob/main/agency-agents-gis/README.md",
+      "changelog": "https://github.com/mnriem/spec-kit-extensions/blob/main/agency-agents-gis/CHANGELOG.md",
+      "license": "MIT",
+      "requires": {
+        "speckit_version": ">=0.2.0"
+      },
+      "provides": {
+        "commands": 13,
+        "hooks": 0
+      },
+      "tags": [
+        "agency-agents",
+        "agents",
+        "gis",
+        "experimental"
+      ]
+    },
+    "agency-agents-marketing": {
+      "name": "Agency Agents \u2014 Marketing",
+      "id": "agency-agents-marketing",
+      "version": "1.0.0",
+      "description": "Marketing division specialists from the Agency Agents collection (36 agents).",
+      "author": "spec-kit-community",
+      "repository": "https://github.com/mnriem/spec-kit-extensions",
+      "download_url": "https://github.com/mnriem/spec-kit-extensions/releases/download/agency-agents-marketing-v1.0.0/agency-agents-marketing.zip",
+      "homepage": "https://github.com/mnriem/spec-kit-extensions",
+      "documentation": "https://github.com/mnriem/spec-kit-extensions/blob/main/agency-agents-marketing/README.md",
+      "changelog": "https://github.com/mnriem/spec-kit-extensions/blob/main/agency-agents-marketing/CHANGELOG.md",
+      "license": "MIT",
+      "requires": {
+        "speckit_version": ">=0.2.0"
+      },
+      "provides": {
+        "commands": 36,
+        "hooks": 0
+      },
+      "tags": [
+        "agency-agents",
+        "agents",
+        "marketing",
+        "experimental"
+      ]
+    },
+    "agency-agents-paid-media": {
+      "name": "Agency Agents \u2014 Paid Media",
+      "id": "agency-agents-paid-media",
+      "version": "1.0.0",
+      "description": "Paid Media division specialists from the Agency Agents collection (7 agents).",
+      "author": "spec-kit-community",
+      "repository": "https://github.com/mnriem/spec-kit-extensions",
+      "download_url": "https://github.com/mnriem/spec-kit-extensions/releases/download/agency-agents-paid-media-v1.0.0/agency-agents-paid-media.zip",
+      "homepage": "https://github.com/mnriem/spec-kit-extensions",
+      "documentation": "https://github.com/mnriem/spec-kit-extensions/blob/main/agency-agents-paid-media/README.md",
+      "changelog": "https://github.com/mnriem/spec-kit-extensions/blob/main/agency-agents-paid-media/CHANGELOG.md",
+      "license": "MIT",
+      "requires": {
+        "speckit_version": ">=0.2.0"
+      },
+      "provides": {
+        "commands": 7,
+        "hooks": 0
+      },
+      "tags": [
+        "agency-agents",
+        "agents",
+        "paid-media",
+        "experimental"
+      ]
+    },
+    "agency-agents-product": {
+      "name": "Agency Agents \u2014 Product",
+      "id": "agency-agents-product",
+      "version": "1.0.0",
+      "description": "Product division specialists from the Agency Agents collection (5 agents).",
+      "author": "spec-kit-community",
+      "repository": "https://github.com/mnriem/spec-kit-extensions",
+      "download_url": "https://github.com/mnriem/spec-kit-extensions/releases/download/agency-agents-product-v1.0.0/agency-agents-product.zip",
+      "homepage": "https://github.com/mnriem/spec-kit-extensions",
+      "documentation": "https://github.com/mnriem/spec-kit-extensions/blob/main/agency-agents-product/README.md",
+      "changelog": "https://github.com/mnriem/spec-kit-extensions/blob/main/agency-agents-product/CHANGELOG.md",
+      "license": "MIT",
+      "requires": {
+        "speckit_version": ">=0.2.0"
+      },
+      "provides": {
+        "commands": 5,
+        "hooks": 0
+      },
+      "tags": [
+        "agency-agents",
+        "agents",
+        "product",
+        "experimental"
+      ]
+    },
+    "agency-agents-project-management": {
+      "name": "Agency Agents \u2014 Project Management",
+      "id": "agency-agents-project-management",
+      "version": "1.0.0",
+      "description": "Project Management division specialists from the Agency Agents collection (7 agents).",
+      "author": "spec-kit-community",
+      "repository": "https://github.com/mnriem/spec-kit-extensions",
+      "download_url": "https://github.com/mnriem/spec-kit-extensions/releases/download/agency-agents-project-management-v1.0.0/agency-agents-project-management.zip",
+      "homepage": "https://github.com/mnriem/spec-kit-extensions",
+      "documentation": "https://github.com/mnriem/spec-kit-extensions/blob/main/agency-agents-project-management/README.md",
+      "changelog": "https://github.com/mnriem/spec-kit-extensions/blob/main/agency-agents-project-management/CHANGELOG.md",
+      "license": "MIT",
+      "requires": {
+        "speckit_version": ">=0.2.0"
+      },
+      "provides": {
+        "commands": 7,
+        "hooks": 0
+      },
+      "tags": [
+        "agency-agents",
+        "agents",
+        "project-management",
+        "experimental"
+      ]
+    },
+    "agency-agents-sales": {
+      "name": "Agency Agents \u2014 Sales",
+      "id": "agency-agents-sales",
+      "version": "1.0.0",
+      "description": "Sales division specialists from the Agency Agents collection (9 agents).",
+      "author": "spec-kit-community",
+      "repository": "https://github.com/mnriem/spec-kit-extensions",
+      "download_url": "https://github.com/mnriem/spec-kit-extensions/releases/download/agency-agents-sales-v1.0.0/agency-agents-sales.zip",
+      "homepage": "https://github.com/mnriem/spec-kit-extensions",
+      "documentation": "https://github.com/mnriem/spec-kit-extensions/blob/main/agency-agents-sales/README.md",
+      "changelog": "https://github.com/mnriem/spec-kit-extensions/blob/main/agency-agents-sales/CHANGELOG.md",
+      "license": "MIT",
+      "requires": {
+        "speckit_version": ">=0.2.0"
+      },
+      "provides": {
+        "commands": 9,
+        "hooks": 0
+      },
+      "tags": [
+        "agency-agents",
+        "agents",
+        "sales",
+        "experimental"
+      ]
+    },
+    "agency-agents-security": {
+      "name": "Agency Agents \u2014 Security",
+      "id": "agency-agents-security",
+      "version": "1.0.0",
+      "description": "Security division specialists from the Agency Agents collection (10 agents).",
+      "author": "spec-kit-community",
+      "repository": "https://github.com/mnriem/spec-kit-extensions",
+      "download_url": "https://github.com/mnriem/spec-kit-extensions/releases/download/agency-agents-security-v1.0.0/agency-agents-security.zip",
+      "homepage": "https://github.com/mnriem/spec-kit-extensions",
+      "documentation": "https://github.com/mnriem/spec-kit-extensions/blob/main/agency-agents-security/README.md",
+      "changelog": "https://github.com/mnriem/spec-kit-extensions/blob/main/agency-agents-security/CHANGELOG.md",
+      "license": "MIT",
+      "requires": {
+        "speckit_version": ">=0.2.0"
+      },
+      "provides": {
+        "commands": 10,
+        "hooks": 0
+      },
+      "tags": [
+        "agency-agents",
+        "agents",
+        "security",
+        "experimental"
+      ]
+    },
+    "agency-agents-spatial-computing": {
+      "name": "Agency Agents \u2014 Spatial Computing",
+      "id": "agency-agents-spatial-computing",
+      "version": "1.0.0",
+      "description": "Spatial Computing division specialists from the Agency Agents collection (6 agents).",
+      "author": "spec-kit-community",
+      "repository": "https://github.com/mnriem/spec-kit-extensions",
+      "download_url": "https://github.com/mnriem/spec-kit-extensions/releases/download/agency-agents-spatial-computing-v1.0.0/agency-agents-spatial-computing.zip",
+      "homepage": "https://github.com/mnriem/spec-kit-extensions",
+      "documentation": "https://github.com/mnriem/spec-kit-extensions/blob/main/agency-agents-spatial-computing/README.md",
+      "changelog": "https://github.com/mnriem/spec-kit-extensions/blob/main/agency-agents-spatial-computing/CHANGELOG.md",
+      "license": "MIT",
+      "requires": {
+        "speckit_version": ">=0.2.0"
+      },
+      "provides": {
+        "commands": 6,
+        "hooks": 0
+      },
+      "tags": [
+        "agency-agents",
+        "agents",
+        "spatial-computing",
+        "experimental"
+      ]
+    },
+    "agency-agents-specialized": {
+      "name": "Agency Agents \u2014 Specialized",
+      "id": "agency-agents-specialized",
+      "version": "1.0.0",
+      "description": "Specialized division specialists from the Agency Agents collection (53 agents).",
+      "author": "spec-kit-community",
+      "repository": "https://github.com/mnriem/spec-kit-extensions",
+      "download_url": "https://github.com/mnriem/spec-kit-extensions/releases/download/agency-agents-specialized-v1.0.0/agency-agents-specialized.zip",
+      "homepage": "https://github.com/mnriem/spec-kit-extensions",
+      "documentation": "https://github.com/mnriem/spec-kit-extensions/blob/main/agency-agents-specialized/README.md",
+      "changelog": "https://github.com/mnriem/spec-kit-extensions/blob/main/agency-agents-specialized/CHANGELOG.md",
+      "license": "MIT",
+      "requires": {
+        "speckit_version": ">=0.2.0"
+      },
+      "provides": {
+        "commands": 53,
+        "hooks": 0
+      },
+      "tags": [
+        "agency-agents",
+        "agents",
+        "specialized",
+        "experimental"
+      ]
+    },
+    "agency-agents-support": {
+      "name": "Agency Agents \u2014 Support",
+      "id": "agency-agents-support",
+      "version": "1.0.0",
+      "description": "Support division specialists from the Agency Agents collection (6 agents).",
+      "author": "spec-kit-community",
+      "repository": "https://github.com/mnriem/spec-kit-extensions",
+      "download_url": "https://github.com/mnriem/spec-kit-extensions/releases/download/agency-agents-support-v1.0.0/agency-agents-support.zip",
+      "homepage": "https://github.com/mnriem/spec-kit-extensions",
+      "documentation": "https://github.com/mnriem/spec-kit-extensions/blob/main/agency-agents-support/README.md",
+      "changelog": "https://github.com/mnriem/spec-kit-extensions/blob/main/agency-agents-support/CHANGELOG.md",
+      "license": "MIT",
+      "requires": {
+        "speckit_version": ">=0.2.0"
+      },
+      "provides": {
+        "commands": 6,
+        "hooks": 0
+      },
+      "tags": [
+        "agency-agents",
+        "agents",
+        "support",
+        "experimental"
+      ]
+    },
+    "agency-agents-sync": {
+      "name": "Agency Agents \u2014 Sync",
+      "id": "agency-agents-sync",
+      "version": "1.0.0",
+      "description": "Mirror the Agency Agents collection into agency-agents-<division> Spec Kit extensions and keep them up to date.",
+      "author": "spec-kit-community",
+      "repository": "https://github.com/mnriem/spec-kit-extensions",
+      "download_url": "https://github.com/mnriem/spec-kit-extensions/releases/download/agency-agents-sync-v1.0.0/agency-agents-sync.zip",
+      "homepage": "https://github.com/mnriem/spec-kit-extensions",
+      "documentation": "https://github.com/mnriem/spec-kit-extensions/blob/main/agency-agents-sync/README.md",
+      "changelog": "https://github.com/mnriem/spec-kit-extensions/blob/main/agency-agents-sync/CHANGELOG.md",
+      "license": "MIT",
+      "requires": {
+        "speckit_version": ">=0.2.0"
+      },
+      "provides": {
+        "commands": 1,
+        "hooks": 0
+      },
+      "tags": [
+        "agency-agents",
+        "agents",
+        "sync",
+        "workflow",
+        "experimental"
+      ]
+    },
+    "agency-agents-testing": {
+      "name": "Agency Agents \u2014 Testing",
+      "id": "agency-agents-testing",
+      "version": "1.0.0",
+      "description": "Testing division specialists from the Agency Agents collection (8 agents).",
+      "author": "spec-kit-community",
+      "repository": "https://github.com/mnriem/spec-kit-extensions",
+      "download_url": "https://github.com/mnriem/spec-kit-extensions/releases/download/agency-agents-testing-v1.0.0/agency-agents-testing.zip",
+      "homepage": "https://github.com/mnriem/spec-kit-extensions",
+      "documentation": "https://github.com/mnriem/spec-kit-extensions/blob/main/agency-agents-testing/README.md",
+      "changelog": "https://github.com/mnriem/spec-kit-extensions/blob/main/agency-agents-testing/CHANGELOG.md",
+      "license": "MIT",
+      "requires": {
+        "speckit_version": ">=0.2.0"
+      },
+      "provides": {
+        "commands": 8,
+        "hooks": 0
+      },
+      "tags": [
+        "agency-agents",
+        "agents",
+        "testing",
+        "experimental"
+      ]
+    },
     "aide": {
       "name": "AI-Driven Engineering (AIDE)",
       "id": "aide",
       "version": "1.0.0",
-      "description": "A structured 7-step workflow for building new projects from scratch with AI assistants — from vision through implementation.",
+      "description": "A structured 7-step workflow for building new projects from scratch with AI assistants \u2014 from vision through implementation.",
       "author": "spec-kit-community",
       "repository": "https://github.com/mnriem/spec-kit-extensions",
       "download_url": "https://github.com/mnriem/spec-kit-extensions/releases/download/aide-v1.0.0/aide.zip",

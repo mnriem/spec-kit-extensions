@@ -1,0 +1,62 @@
+schema_version: "1.0"
+
+extension:
+  id: agency-agents-security
+  name: "Agency Agents — Security"
+  version: "1.0.0"
+  description: "Security division specialists from the Agency Agents collection (10 agents)."
+  author: spec-kit-community
+  repository: "https://github.com/mnriem/spec-kit-extensions"
+  license: MIT
+  homepage: "https://github.com/mnriem/spec-kit-extensions"
+
+requires:
+  speckit_version: ">=0.2.0"
+
+provides:
+  commands:
+    - name: speckit.agency-agents-security.appsec-engineer
+      file: commands/appsec-engineer.md
+      description: "AppSec specialist who secures the software development lifecycle through threat modeling, secure code review, SAST/DAST integration, and developer security education that makes secure code the default."
+
+    - name: speckit.agency-agents-security.architect
+      file: commands/architect.md
+      description: "Expert security architect specializing in threat modeling, secure-by-design architecture, trust-boundary analysis, defense-in-depth, and risk-based security reviews across web, API, cloud-native, and distributed systems. Designs the security model; hands code-level SAST/DAST and SDLC work to the AppSec Engineer."
+
+    - name: speckit.agency-agents-security.blockchain-security-auditor
+      file: commands/blockchain-security-auditor.md
+      description: "Expert smart contract security auditor specializing in vulnerability detection, formal verification, exploit analysis, and comprehensive audit report writing for DeFi protocols and blockchain applications."
+
+    - name: speckit.agency-agents-security.cloud-security-architect
+      file: commands/cloud-security-architect.md
+      description: "Cloud-native security specialist designing zero trust architectures, implementing defense-in-depth across AWS, Azure, and GCP, and securing infrastructure-as-code pipelines from day one."
+
+    - name: speckit.agency-agents-security.compliance-auditor
+      file: commands/compliance-auditor.md
+      description: "Expert technical compliance auditor specializing in SOC 2, ISO 27001, HIPAA, and PCI-DSS audits — from readiness assessment through evidence collection to certification."
+
+    - name: speckit.agency-agents-security.incident-responder
+      file: commands/incident-responder.md
+      description: "Digital forensics and incident response specialist who leads breach investigations, contains active threats, coordinates crisis response, and writes post-mortems that prevent recurrence."
+
+    - name: speckit.agency-agents-security.penetration-tester
+      file: commands/penetration-tester.md
+      description: "Offensive security specialist conducting authorized penetration tests, red team operations, and vulnerability assessments across networks, web applications, and cloud infrastructure."
+
+    - name: speckit.agency-agents-security.senior-secops
+      file: commands/senior-secops.md
+      description: "Defensive application security specialist who scans every code submission for secrets and sensitive data exposure before anything else, then implements or audits security controls following the organization's security standard — covering authentication, authorization, tokens, cookies, HTTP headers, CORS, rate limiting, CSP, secrets management, input validation, and secure logging."
+
+    - name: speckit.agency-agents-security.threat-detection-engineer
+      file: commands/threat-detection-engineer.md
+      description: "Expert detection engineer specializing in SIEM rule development, MITRE ATT&CK coverage mapping, threat hunting, alert tuning, and detection-as-code pipelines for security operations teams."
+
+    - name: speckit.agency-agents-security.threat-intelligence-analyst
+      file: commands/threat-intelligence-analyst.md
+      description: "Cyber threat intelligence specialist who tracks adversary groups, maps attack campaigns to MITRE ATT&CK, produces actionable intelligence reports, and builds detection rules that catch real threats."
+
+tags:
+  - agency-agents
+  - agents
+  - security
+  - experimental
