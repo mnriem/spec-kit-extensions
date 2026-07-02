@@ -1,0 +1,25 @@
+schema_version: "1.0"
+
+extension:
+  id: anthropic-skills-web-artifacts-builder
+  name: "Anthropic Skills: Web Artifacts Builder"
+  version: "1.0.0"
+  description: "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui)."
+  author: spec-kit-community
+  repository: "https://github.com/mnriem/spec-kit-extensions"
+  license: "See resources/LICENSE.txt (from anthropics/skills)"
+  homepage: "https://github.com/mnriem/spec-kit-extensions"
+
+requires:
+  speckit_version: ">=0.2.0"
+
+provides:
+  commands:
+    - name: speckit.anthropic-skills-web-artifacts-builder.web-artifacts-builder
+      file: commands/web-artifacts-builder.md
+      description: "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui)."
+
+tags:
+  - anthropic-skills
+  - web-artifacts-builder
+  - skill-conversion

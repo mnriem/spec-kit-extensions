@@ -1,0 +1,25 @@
+schema_version: "1.0"
+
+extension:
+  id: anthropic-skills-mcp-builder
+  name: "Anthropic Skills: MCP Builder"
+  version: "1.0.0"
+  description: "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools."
+  author: spec-kit-community
+  repository: "https://github.com/mnriem/spec-kit-extensions"
+  license: "See resources/LICENSE.txt (from anthropics/skills)"
+  homepage: "https://github.com/mnriem/spec-kit-extensions"
+
+requires:
+  speckit_version: ">=0.2.0"
+
+provides:
+  commands:
+    - name: speckit.anthropic-skills-mcp-builder.mcp-builder
+      file: commands/mcp-builder.md
+      description: "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools."
+
+tags:
+  - anthropic-skills
+  - mcp-builder
+  - skill-conversion

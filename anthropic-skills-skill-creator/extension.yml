@@ -1,0 +1,25 @@
+schema_version: "1.0"
+
+extension:
+  id: anthropic-skills-skill-creator
+  name: "Anthropic Skills: Skill Creator"
+  version: "1.0.0"
+  description: "Create new skills, modify and improve existing skills, and measure skill performance."
+  author: spec-kit-community
+  repository: "https://github.com/mnriem/spec-kit-extensions"
+  license: "See resources/LICENSE.txt (from anthropics/skills)"
+  homepage: "https://github.com/mnriem/spec-kit-extensions"
+
+requires:
+  speckit_version: ">=0.2.0"
+
+provides:
+  commands:
+    - name: speckit.anthropic-skills-skill-creator.skill-creator
+      file: commands/skill-creator.md
+      description: "Create new skills, modify and improve existing skills, and measure skill performance."
+
+tags:
+  - anthropic-skills
+  - skill-creator
+  - skill-conversion

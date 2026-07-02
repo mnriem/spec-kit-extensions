@@ -1,0 +1,25 @@
+schema_version: "1.0"
+
+extension:
+  id: anthropic-skills-canvas-design
+  name: "Anthropic Skills: Canvas Design"
+  version: "1.0.0"
+  description: "Create beautiful visual art in .png and .pdf documents using design philosophy."
+  author: spec-kit-community
+  repository: "https://github.com/mnriem/spec-kit-extensions"
+  license: "See resources/LICENSE.txt (from anthropics/skills)"
+  homepage: "https://github.com/mnriem/spec-kit-extensions"
+
+requires:
+  speckit_version: ">=0.2.0"
+
+provides:
+  commands:
+    - name: speckit.anthropic-skills-canvas-design.canvas-design
+      file: commands/canvas-design.md
+      description: "Create beautiful visual art in .png and .pdf documents using design philosophy."
+
+tags:
+  - anthropic-skills
+  - canvas-design
+  - skill-conversion

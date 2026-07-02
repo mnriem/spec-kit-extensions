@@ -1,0 +1,25 @@
+schema_version: "1.0"
+
+extension:
+  id: anthropic-skills-brand-guidelines
+  name: "Anthropic Skills: Brand Guidelines"
+  version: "1.0.0"
+  description: "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel."
+  author: spec-kit-community
+  repository: "https://github.com/mnriem/spec-kit-extensions"
+  license: "See resources/LICENSE.txt (from anthropics/skills)"
+  homepage: "https://github.com/mnriem/spec-kit-extensions"
+
+requires:
+  speckit_version: ">=0.2.0"
+
+provides:
+  commands:
+    - name: speckit.anthropic-skills-brand-guidelines.brand-guidelines
+      file: commands/brand-guidelines.md
+      description: "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel."
+
+tags:
+  - anthropic-skills
+  - brand-guidelines
+  - skill-conversion

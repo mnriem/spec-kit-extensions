@@ -1,0 +1,25 @@
+schema_version: "1.0"
+
+extension:
+  id: anthropic-skills-frontend-design
+  name: "Anthropic Skills: Frontend Design"
+  version: "1.0.0"
+  description: "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one."
+  author: spec-kit-community
+  repository: "https://github.com/mnriem/spec-kit-extensions"
+  license: "See resources/LICENSE.txt (from anthropics/skills)"
+  homepage: "https://github.com/mnriem/spec-kit-extensions"
+
+requires:
+  speckit_version: ">=0.2.0"
+
+provides:
+  commands:
+    - name: speckit.anthropic-skills-frontend-design.frontend-design
+      file: commands/frontend-design.md
+      description: "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one."
+
+tags:
+  - anthropic-skills
+  - frontend-design
+  - skill-conversion

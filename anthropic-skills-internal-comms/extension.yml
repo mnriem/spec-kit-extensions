@@ -1,0 +1,25 @@
+schema_version: "1.0"
+
+extension:
+  id: anthropic-skills-internal-comms
+  name: "Anthropic Skills: Internal Comms"
+  version: "1.0.0"
+  description: "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use."
+  author: spec-kit-community
+  repository: "https://github.com/mnriem/spec-kit-extensions"
+  license: "See resources/LICENSE.txt (from anthropics/skills)"
+  homepage: "https://github.com/mnriem/spec-kit-extensions"
+
+requires:
+  speckit_version: ">=0.2.0"
+
+provides:
+  commands:
+    - name: speckit.anthropic-skills-internal-comms.internal-comms
+      file: commands/internal-comms.md
+      description: "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use."
+
+tags:
+  - anthropic-skills
+  - internal-comms
+  - skill-conversion

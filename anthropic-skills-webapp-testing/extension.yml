@@ -1,0 +1,25 @@
+schema_version: "1.0"
+
+extension:
+  id: anthropic-skills-webapp-testing
+  name: "Anthropic Skills: Webapp Testing"
+  version: "1.0.0"
+  description: "Toolkit for interacting with and testing local web applications using Playwright."
+  author: spec-kit-community
+  repository: "https://github.com/mnriem/spec-kit-extensions"
+  license: "See resources/LICENSE.txt (from anthropics/skills)"
+  homepage: "https://github.com/mnriem/spec-kit-extensions"
+
+requires:
+  speckit_version: ">=0.2.0"
+
+provides:
+  commands:
+    - name: speckit.anthropic-skills-webapp-testing.webapp-testing
+      file: commands/webapp-testing.md
+      description: "Toolkit for interacting with and testing local web applications using Playwright."
+
+tags:
+  - anthropic-skills
+  - webapp-testing
+  - skill-conversion

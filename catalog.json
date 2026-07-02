@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-03-18T00:00:00Z",
+  "updated_at": "2026-07-02T18:02:18Z",
   "catalog_url": "https://raw.githubusercontent.com/mnriem/spec-kit-extensions/main/catalog.json",
   "extensions": {
     "aide": {
@@ -29,6 +29,331 @@
         "new-project",
         "planning",
         "experimental"
+      ]
+    },
+    "anthropic-skills-algorithmic-art": {
+      "name": "Anthropic Skills: Algorithmic Art",
+      "id": "anthropic-skills-algorithmic-art",
+      "version": "1.0.0",
+      "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration.",
+      "author": "spec-kit-community",
+      "repository": "https://github.com/mnriem/spec-kit-extensions",
+      "download_url": "https://github.com/mnriem/spec-kit-extensions/releases/download/anthropic-skills-algorithmic-art-v1.0.0/anthropic-skills-algorithmic-art.zip",
+      "homepage": "https://github.com/mnriem/spec-kit-extensions",
+      "documentation": "https://github.com/mnriem/spec-kit-extensions/blob/main/anthropic-skills-algorithmic-art/README.md",
+      "changelog": "https://github.com/mnriem/spec-kit-extensions/blob/main/anthropic-skills-algorithmic-art/CHANGELOG.md",
+      "license": "See resources/LICENSE.txt (from anthropics/skills)",
+      "requires": {
+        "speckit_version": ">=0.2.0"
+      },
+      "provides": {
+        "commands": 1,
+        "hooks": 0
+      },
+      "tags": [
+        "anthropic-skills",
+        "algorithmic-art",
+        "skill-conversion"
+      ]
+    },
+    "anthropic-skills-brand-guidelines": {
+      "name": "Anthropic Skills: Brand Guidelines",
+      "id": "anthropic-skills-brand-guidelines",
+      "version": "1.0.0",
+      "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel.",
+      "author": "spec-kit-community",
+      "repository": "https://github.com/mnriem/spec-kit-extensions",
+      "download_url": "https://github.com/mnriem/spec-kit-extensions/releases/download/anthropic-skills-brand-guidelines-v1.0.0/anthropic-skills-brand-guidelines.zip",
+      "homepage": "https://github.com/mnriem/spec-kit-extensions",
+      "documentation": "https://github.com/mnriem/spec-kit-extensions/blob/main/anthropic-skills-brand-guidelines/README.md",
+      "changelog": "https://github.com/mnriem/spec-kit-extensions/blob/main/anthropic-skills-brand-guidelines/CHANGELOG.md",
+      "license": "See resources/LICENSE.txt (from anthropics/skills)",
+      "requires": {
+        "speckit_version": ">=0.2.0"
+      },
+      "provides": {
+        "commands": 1,
+        "hooks": 0
+      },
+      "tags": [
+        "anthropic-skills",
+        "brand-guidelines",
+        "skill-conversion"
+      ]
+    },
+    "anthropic-skills-canvas-design": {
+      "name": "Anthropic Skills: Canvas Design",
+      "id": "anthropic-skills-canvas-design",
+      "version": "1.0.0",
+      "description": "Create beautiful visual art in .png and .pdf documents using design philosophy.",
+      "author": "spec-kit-community",
+      "repository": "https://github.com/mnriem/spec-kit-extensions",
+      "download_url": "https://github.com/mnriem/spec-kit-extensions/releases/download/anthropic-skills-canvas-design-v1.0.0/anthropic-skills-canvas-design.zip",
+      "homepage": "https://github.com/mnriem/spec-kit-extensions",
+      "documentation": "https://github.com/mnriem/spec-kit-extensions/blob/main/anthropic-skills-canvas-design/README.md",
+      "changelog": "https://github.com/mnriem/spec-kit-extensions/blob/main/anthropic-skills-canvas-design/CHANGELOG.md",
+      "license": "See resources/LICENSE.txt (from anthropics/skills)",
+      "requires": {
+        "speckit_version": ">=0.2.0"
+      },
+      "provides": {
+        "commands": 1,
+        "hooks": 0
+      },
+      "tags": [
+        "anthropic-skills",
+        "canvas-design",
+        "skill-conversion"
+      ]
+    },
+    "anthropic-skills-claude-api": {
+      "name": "Anthropic Skills: Claude API",
+      "id": "anthropic-skills-claude-api",
+      "version": "1.0.0",
+      "description": "Reference for the Claude API / Anthropic SDK — model ids, pricing, params, streaming, tool use, MCP, agents, caching, token counting, model migration.",
+      "author": "spec-kit-community",
+      "repository": "https://github.com/mnriem/spec-kit-extensions",
+      "download_url": "https://github.com/mnriem/spec-kit-extensions/releases/download/anthropic-skills-claude-api-v1.0.0/anthropic-skills-claude-api.zip",
+      "homepage": "https://github.com/mnriem/spec-kit-extensions",
+      "documentation": "https://github.com/mnriem/spec-kit-extensions/blob/main/anthropic-skills-claude-api/README.md",
+      "changelog": "https://github.com/mnriem/spec-kit-extensions/blob/main/anthropic-skills-claude-api/CHANGELOG.md",
+      "license": "See resources/LICENSE.txt (from anthropics/skills)",
+      "requires": {
+        "speckit_version": ">=0.2.0"
+      },
+      "provides": {
+        "commands": 1,
+        "hooks": 0
+      },
+      "tags": [
+        "anthropic-skills",
+        "claude-api",
+        "skill-conversion"
+      ]
+    },
+    "anthropic-skills-doc-coauthoring": {
+      "name": "Anthropic Skills: Doc Coauthoring",
+      "id": "anthropic-skills-doc-coauthoring",
+      "version": "1.0.0",
+      "description": "Guide users through a structured workflow for co-authoring documentation.",
+      "author": "spec-kit-community",
+      "repository": "https://github.com/mnriem/spec-kit-extensions",
+      "download_url": "https://github.com/mnriem/spec-kit-extensions/releases/download/anthropic-skills-doc-coauthoring-v1.0.0/anthropic-skills-doc-coauthoring.zip",
+      "homepage": "https://github.com/mnriem/spec-kit-extensions",
+      "documentation": "https://github.com/mnriem/spec-kit-extensions/blob/main/anthropic-skills-doc-coauthoring/README.md",
+      "changelog": "https://github.com/mnriem/spec-kit-extensions/blob/main/anthropic-skills-doc-coauthoring/CHANGELOG.md",
+      "license": "See https://github.com/anthropics/skills",
+      "requires": {
+        "speckit_version": ">=0.2.0"
+      },
+      "provides": {
+        "commands": 1,
+        "hooks": 0
+      },
+      "tags": [
+        "anthropic-skills",
+        "doc-coauthoring",
+        "skill-conversion"
+      ]
+    },
+    "anthropic-skills-frontend-design": {
+      "name": "Anthropic Skills: Frontend Design",
+      "id": "anthropic-skills-frontend-design",
+      "version": "1.0.0",
+      "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one.",
+      "author": "spec-kit-community",
+      "repository": "https://github.com/mnriem/spec-kit-extensions",
+      "download_url": "https://github.com/mnriem/spec-kit-extensions/releases/download/anthropic-skills-frontend-design-v1.0.0/anthropic-skills-frontend-design.zip",
+      "homepage": "https://github.com/mnriem/spec-kit-extensions",
+      "documentation": "https://github.com/mnriem/spec-kit-extensions/blob/main/anthropic-skills-frontend-design/README.md",
+      "changelog": "https://github.com/mnriem/spec-kit-extensions/blob/main/anthropic-skills-frontend-design/CHANGELOG.md",
+      "license": "See resources/LICENSE.txt (from anthropics/skills)",
+      "requires": {
+        "speckit_version": ">=0.2.0"
+      },
+      "provides": {
+        "commands": 1,
+        "hooks": 0
+      },
+      "tags": [
+        "anthropic-skills",
+        "frontend-design",
+        "skill-conversion"
+      ]
+    },
+    "anthropic-skills-internal-comms": {
+      "name": "Anthropic Skills: Internal Comms",
+      "id": "anthropic-skills-internal-comms",
+      "version": "1.0.0",
+      "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use.",
+      "author": "spec-kit-community",
+      "repository": "https://github.com/mnriem/spec-kit-extensions",
+      "download_url": "https://github.com/mnriem/spec-kit-extensions/releases/download/anthropic-skills-internal-comms-v1.0.0/anthropic-skills-internal-comms.zip",
+      "homepage": "https://github.com/mnriem/spec-kit-extensions",
+      "documentation": "https://github.com/mnriem/spec-kit-extensions/blob/main/anthropic-skills-internal-comms/README.md",
+      "changelog": "https://github.com/mnriem/spec-kit-extensions/blob/main/anthropic-skills-internal-comms/CHANGELOG.md",
+      "license": "See resources/LICENSE.txt (from anthropics/skills)",
+      "requires": {
+        "speckit_version": ">=0.2.0"
+      },
+      "provides": {
+        "commands": 1,
+        "hooks": 0
+      },
+      "tags": [
+        "anthropic-skills",
+        "internal-comms",
+        "skill-conversion"
+      ]
+    },
+    "anthropic-skills-mcp-builder": {
+      "name": "Anthropic Skills: MCP Builder",
+      "id": "anthropic-skills-mcp-builder",
+      "version": "1.0.0",
+      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools.",
+      "author": "spec-kit-community",
+      "repository": "https://github.com/mnriem/spec-kit-extensions",
+      "download_url": "https://github.com/mnriem/spec-kit-extensions/releases/download/anthropic-skills-mcp-builder-v1.0.0/anthropic-skills-mcp-builder.zip",
+      "homepage": "https://github.com/mnriem/spec-kit-extensions",
+      "documentation": "https://github.com/mnriem/spec-kit-extensions/blob/main/anthropic-skills-mcp-builder/README.md",
+      "changelog": "https://github.com/mnriem/spec-kit-extensions/blob/main/anthropic-skills-mcp-builder/CHANGELOG.md",
+      "license": "See resources/LICENSE.txt (from anthropics/skills)",
+      "requires": {
+        "speckit_version": ">=0.2.0"
+      },
+      "provides": {
+        "commands": 1,
+        "hooks": 0
+      },
+      "tags": [
+        "anthropic-skills",
+        "mcp-builder",
+        "skill-conversion"
+      ]
+    },
+    "anthropic-skills-skill-creator": {
+      "name": "Anthropic Skills: Skill Creator",
+      "id": "anthropic-skills-skill-creator",
+      "version": "1.0.0",
+      "description": "Create new skills, modify and improve existing skills, and measure skill performance.",
+      "author": "spec-kit-community",
+      "repository": "https://github.com/mnriem/spec-kit-extensions",
+      "download_url": "https://github.com/mnriem/spec-kit-extensions/releases/download/anthropic-skills-skill-creator-v1.0.0/anthropic-skills-skill-creator.zip",
+      "homepage": "https://github.com/mnriem/spec-kit-extensions",
+      "documentation": "https://github.com/mnriem/spec-kit-extensions/blob/main/anthropic-skills-skill-creator/README.md",
+      "changelog": "https://github.com/mnriem/spec-kit-extensions/blob/main/anthropic-skills-skill-creator/CHANGELOG.md",
+      "license": "See resources/LICENSE.txt (from anthropics/skills)",
+      "requires": {
+        "speckit_version": ">=0.2.0"
+      },
+      "provides": {
+        "commands": 1,
+        "hooks": 0
+      },
+      "tags": [
+        "anthropic-skills",
+        "skill-creator",
+        "skill-conversion"
+      ]
+    },
+    "anthropic-skills-slack-gif-creator": {
+      "name": "Anthropic Skills: Slack GIF Creator",
+      "id": "anthropic-skills-slack-gif-creator",
+      "version": "1.0.0",
+      "description": "Knowledge and utilities for creating animated GIFs optimized for Slack.",
+      "author": "spec-kit-community",
+      "repository": "https://github.com/mnriem/spec-kit-extensions",
+      "download_url": "https://github.com/mnriem/spec-kit-extensions/releases/download/anthropic-skills-slack-gif-creator-v1.0.0/anthropic-skills-slack-gif-creator.zip",
+      "homepage": "https://github.com/mnriem/spec-kit-extensions",
+      "documentation": "https://github.com/mnriem/spec-kit-extensions/blob/main/anthropic-skills-slack-gif-creator/README.md",
+      "changelog": "https://github.com/mnriem/spec-kit-extensions/blob/main/anthropic-skills-slack-gif-creator/CHANGELOG.md",
+      "license": "See resources/LICENSE.txt (from anthropics/skills)",
+      "requires": {
+        "speckit_version": ">=0.2.0"
+      },
+      "provides": {
+        "commands": 1,
+        "hooks": 0
+      },
+      "tags": [
+        "anthropic-skills",
+        "slack-gif-creator",
+        "skill-conversion"
+      ]
+    },
+    "anthropic-skills-theme-factory": {
+      "name": "Anthropic Skills: Theme Factory",
+      "id": "anthropic-skills-theme-factory",
+      "version": "1.0.0",
+      "description": "Toolkit for styling artifacts with a theme.",
+      "author": "spec-kit-community",
+      "repository": "https://github.com/mnriem/spec-kit-extensions",
+      "download_url": "https://github.com/mnriem/spec-kit-extensions/releases/download/anthropic-skills-theme-factory-v1.0.0/anthropic-skills-theme-factory.zip",
+      "homepage": "https://github.com/mnriem/spec-kit-extensions",
+      "documentation": "https://github.com/mnriem/spec-kit-extensions/blob/main/anthropic-skills-theme-factory/README.md",
+      "changelog": "https://github.com/mnriem/spec-kit-extensions/blob/main/anthropic-skills-theme-factory/CHANGELOG.md",
+      "license": "See resources/LICENSE.txt (from anthropics/skills)",
+      "requires": {
+        "speckit_version": ">=0.2.0"
+      },
+      "provides": {
+        "commands": 1,
+        "hooks": 0
+      },
+      "tags": [
+        "anthropic-skills",
+        "theme-factory",
+        "skill-conversion"
+      ]
+    },
+    "anthropic-skills-web-artifacts-builder": {
+      "name": "Anthropic Skills: Web Artifacts Builder",
+      "id": "anthropic-skills-web-artifacts-builder",
+      "version": "1.0.0",
+      "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui).",
+      "author": "spec-kit-community",
+      "repository": "https://github.com/mnriem/spec-kit-extensions",
+      "download_url": "https://github.com/mnriem/spec-kit-extensions/releases/download/anthropic-skills-web-artifacts-builder-v1.0.0/anthropic-skills-web-artifacts-builder.zip",
+      "homepage": "https://github.com/mnriem/spec-kit-extensions",
+      "documentation": "https://github.com/mnriem/spec-kit-extensions/blob/main/anthropic-skills-web-artifacts-builder/README.md",
+      "changelog": "https://github.com/mnriem/spec-kit-extensions/blob/main/anthropic-skills-web-artifacts-builder/CHANGELOG.md",
+      "license": "See resources/LICENSE.txt (from anthropics/skills)",
+      "requires": {
+        "speckit_version": ">=0.2.0"
+      },
+      "provides": {
+        "commands": 1,
+        "hooks": 0
+      },
+      "tags": [
+        "anthropic-skills",
+        "web-artifacts-builder",
+        "skill-conversion"
+      ]
+    },
+    "anthropic-skills-webapp-testing": {
+      "name": "Anthropic Skills: Webapp Testing",
+      "id": "anthropic-skills-webapp-testing",
+      "version": "1.0.0",
+      "description": "Toolkit for interacting with and testing local web applications using Playwright.",
+      "author": "spec-kit-community",
+      "repository": "https://github.com/mnriem/spec-kit-extensions",
+      "download_url": "https://github.com/mnriem/spec-kit-extensions/releases/download/anthropic-skills-webapp-testing-v1.0.0/anthropic-skills-webapp-testing.zip",
+      "homepage": "https://github.com/mnriem/spec-kit-extensions",
+      "documentation": "https://github.com/mnriem/spec-kit-extensions/blob/main/anthropic-skills-webapp-testing/README.md",
+      "changelog": "https://github.com/mnriem/spec-kit-extensions/blob/main/anthropic-skills-webapp-testing/CHANGELOG.md",
+      "license": "See resources/LICENSE.txt (from anthropics/skills)",
+      "requires": {
+        "speckit_version": ">=0.2.0"
+      },
+      "provides": {
+        "commands": 1,
+        "hooks": 0
+      },
+      "tags": [
+        "anthropic-skills",
+        "webapp-testing",
+        "skill-conversion"
       ]
     },
     "extensify": {

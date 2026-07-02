@@ -1,0 +1,25 @@
+schema_version: "1.0"
+
+extension:
+  id: anthropic-skills-algorithmic-art
+  name: "Anthropic Skills: Algorithmic Art"
+  version: "1.0.0"
+  description: "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration."
+  author: spec-kit-community
+  repository: "https://github.com/mnriem/spec-kit-extensions"
+  license: "See resources/LICENSE.txt (from anthropics/skills)"
+  homepage: "https://github.com/mnriem/spec-kit-extensions"
+
+requires:
+  speckit_version: ">=0.2.0"
+
+provides:
+  commands:
+    - name: speckit.anthropic-skills-algorithmic-art.algorithmic-art
+      file: commands/algorithmic-art.md
+      description: "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration."
+
+tags:
+  - anthropic-skills
+  - algorithmic-art
+  - skill-conversion
