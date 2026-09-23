@@ -1,0 +1,98 @@
+schema_version: "1.0"
+
+extension:
+  id: openspec
+  name: "OpenSpec"
+  version: "1.0.0"
+  description: "Manage structured change proposals from exploration through implementation, verification, specification sync, and archival."
+  category: "process"
+  effect: "read-write"
+  author: "mnriem"
+  repository: "https://github.com/mnriem/spec-kit-extensions"
+  license: MIT
+  homepage: "https://github.com/mnriem/spec-kit-extensions/tree/main/openspec"
+
+requires:
+  speckit_version: ">=1.0.0"
+
+provides:
+  commands:
+    - name: speckit.openspec.explore
+      file: commands/explore.md
+      description: "Think through an idea, investigate a problem, or clarify requirements without implementing."
+
+    - name: speckit.openspec.propose
+      file: commands/propose.md
+      description: "Create a change proposal and all planning artifacts required for implementation."
+
+    - name: speckit.openspec.apply
+      file: commands/apply.md
+      description: "Implement the remaining tasks from a change proposal."
+
+    - name: speckit.openspec.update
+      file: commands/update.md
+      description: "Revise a change proposal's existing planning artifacts and keep them coherent."
+
+    - name: speckit.openspec.sync
+      file: commands/sync.md
+      description: "Merge delta specs from an active change into the main specs without archiving."
+
+    - name: speckit.openspec.archive
+      file: commands/archive.md
+      description: "Synchronize and archive a completed change proposal."
+
+    - name: speckit.openspec.new
+      file: commands/new.md
+      description: "Start a change proposal as an empty scaffold."
+
+    - name: speckit.openspec.continue
+      file: commands/continue.md
+      description: "Create the next ready planning artifact for a change proposal."
+
+    - name: speckit.openspec.ff
+      file: commands/ff.md
+      description: "Fast-forward a change proposal through all artifacts required for implementation."
+
+    - name: speckit.openspec.verify
+      file: commands/verify.md
+      description: "Verify that an implementation matches its change proposal artifacts."
+
+    - name: speckit.openspec.bulk-archive
+      file: commands/bulk-archive.md
+      description: "Synchronize and archive multiple completed change proposals."
+
+    - name: speckit.openspec.onboard
+      file: commands/onboard.md
+      description: "Learn the workflow by completing a narrated cycle on a real starter change."
+
+  templates:
+    - name: openspec-proposal
+      file: templates/proposal.md
+      description: "Change proposal template."
+
+    - name: openspec-spec-delta
+      file: templates/spec.md
+      description: "Capability specification delta template."
+
+    - name: openspec-design
+      file: templates/design.md
+      description: "Technical design template."
+
+    - name: openspec-tasks
+      file: templates/tasks.md
+      description: "Implementation task checklist template."
+
+  scripts:
+    - name: openspec-change
+      file: scripts/python/change.py
+      description: "Manage change directories, inspect artifact status, and archive completed changes."
+      runtimes:
+        - python
+
+tags:
+  - openspec
+  - spec-driven-development
+  - planning
+  - implementation
+  - workflow
+  - experimental

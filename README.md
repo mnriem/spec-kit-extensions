@@ -1,6 +1,6 @@
 # spec-kit-extensions
 
-> **⚠️ Experimental** — This is the `mnriem` persona Spec Kit extensions
+> **⚠️ Experimental** — This is the `mnriem` personal Spec Kit extensions
 > repository. The extensions here are experimental and may change or break
 > without notice.
 
@@ -15,6 +15,7 @@ community-contributed extensions.
 |-----------|-------------|
 | **[aide](aide/)** | AI-Driven Engineering — a structured 7-step workflow for building new projects from scratch with AI assistants. |
 | **[extensify](extensify/)** | Create and validate extensions and extension catalogs. |
+| **[openspec](openspec/)** | Manage structured changes from exploration through planning, implementation, verification, sync, and archival. |
 | **[presetify](presetify/)** | Create and validate presets and preset catalogs. |
 
 ## Forking

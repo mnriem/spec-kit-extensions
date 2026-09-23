@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-03-18T00:00:00Z",
+  "updated_at": "2026-09-23T00:00:00Z",
   "catalog_url": "https://raw.githubusercontent.com/mnriem/spec-kit-extensions/main/catalog.json",
   "extensions": {
     "aide": {
@@ -54,6 +54,36 @@
         "extensions",
         "workflow",
         "validation",
+        "experimental"
+      ]
+    },
+    "openspec": {
+      "name": "OpenSpec",
+      "id": "openspec",
+      "version": "1.0.0",
+      "description": "Manage structured change proposals from exploration through implementation, verification, specification sync, and archival.",
+      "author": "mnriem",
+      "repository": "https://github.com/mnriem/spec-kit-extensions",
+      "download_url": "https://github.com/mnriem/spec-kit-extensions/releases/download/openspec-v1.0.0/openspec.zip",
+      "homepage": "https://github.com/mnriem/spec-kit-extensions/tree/main/openspec",
+      "documentation": "https://github.com/mnriem/spec-kit-extensions/blob/main/openspec/README.md",
+      "changelog": "https://github.com/mnriem/spec-kit-extensions/blob/main/openspec/CHANGELOG.md",
+      "license": "MIT",
+      "category": "process",
+      "effect": "read-write",
+      "requires": {
+        "speckit_version": ">=1.0.0"
+      },
+      "provides": {
+        "commands": 12,
+        "hooks": 0
+      },
+      "tags": [
+        "openspec",
+        "spec-driven-development",
+        "planning",
+        "implementation",
+        "workflow",
         "experimental"
       ]
     },
