@@ -3,7 +3,7 @@
 Manage structured change proposals from early exploration through planning,
 implementation, verification, specification synchronization, and archival.
 
-The workflow design is based on OpenSpec v1.13.1.
+The workflow design is based on [OpenSpec](https://openspec.dev) v1.13.1.
 
 ## Installation
 
